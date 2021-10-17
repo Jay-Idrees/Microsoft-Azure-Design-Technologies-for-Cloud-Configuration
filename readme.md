@@ -27,6 +27,9 @@ I have created this repository for my self learning and reference for expert Clo
     - When you use AZURE SQL, you do not have to manually manage the underlying VM hosting the database, which means that you do not have to install the Azure SQL service engine, no security or patching of the database
     - You can create the SQL database from the main resources as usual
         - Specifications
-            - Create a server - This is for logging into the SQL database server. It has 2 components, the server that hosts the database and the databse itself
-                - server name- must be unique
+            - `Create a server `- This is for logging into the SQL database server. It has 2 components, the server that hosts the database and the databse itself
+                - Server name- must be unique
                 - Admin login details
+                - Select pricing models for database - `basic,standard, premium` - These are based on DTUs, data transfer units - costs are estimated per month
+                - Select backup storage redundancy
+                - Specify the connectivity options - a firewall is connected by default - options: No access, public endpoint, private endpoint
