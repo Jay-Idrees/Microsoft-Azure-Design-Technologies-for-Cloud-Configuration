@@ -15,5 +15,11 @@ I have created this repository for my self learning and reference on my journey 
     - An NSG is also created the controls permissions for the ports
 
 - **Create a Storage account**
-    - Azure blob service
+    - Azure blob service - The storage capacity automatically grows
     - While you can store data on your local VM - the storage account offers the flexibility of increasing capacity over time, limited options with the VM
+    - Isolation of compute and the storage environment - data or the application are not dependent on eachother - especialy if the VM crashes, you can always create a new VM and connect it to the same storage account
+    - Specifications
+        - Account name, Geo-redundant storage, locally redundant storage is the least expensive
+    - Go to the Storage account resource || Under data storage: Containers (blob service), fileshares (across VMs), Queues (messaging), tables (No SQL like data)
+
+- **Creating an Azure SQL database** Platform as a service (PaaS)
