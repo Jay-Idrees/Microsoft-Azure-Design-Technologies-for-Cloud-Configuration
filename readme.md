@@ -23,7 +23,10 @@ I have created this repository for my self learning and reference for expert Clo
     - Go to the `Storage account resource || Under data storage: Containers (blob service), fileshares (across VMs), Queues (messaging), tables (No SQL like data)`
 
 - **Creating an Azure SQL database** Platform as a service (PaaS)
+    - Note that the SQL server, Database and the storage account must be in the same region
     - When you use AZURE SQL, you do not have to manually manage the underlying VM hosting the database, which means that you do not have to install the Azure SQL service engine, no security or patching of the database
     - You can create the SQL database from the main resources as usual
         - Specifications
             - Create a server - This is for logging into the SQL database server. It has 2 components, the server that hosts the database and the databse itself
+                - server name- must be unique
+                - Admin login details
