@@ -33,3 +33,14 @@ I have created this repository for my self learning and reference for expert Clo
                 - Select pricing models for database - `basic,standard, premium` - These are based on DTUs, data transfer units - costs are estimated per month
                 - Select backup storage redundancy
                 - Specify the connectivity options - a firewall is connected by default - options: No access, public endpoint, private endpoint
+                - You can add your current computer IP address to the firewall rules as well as permit Azure service/resources to access the server
+                - You can use **SQL server management studio** as you work with SQL databases - install this tool on your local machine to access the server 
+    - Once created you can run the SQL server management studio
+        - The server name is the webaddress of the SQL server you created and you use the login credentials in order to connect
+
+    - **Building an appliation**
+        - Will be hosted on an Azure VM and Azure webapp
+            - **Setting up tables in the SQL database**
+                - Use SQL server management studio to create tables and insert values
+                - Select the database by name right click - new query and then you can paste your commands > click execute
+                - Note that in the database, only the image links are stored, but you can store the images in the Azure storage account
