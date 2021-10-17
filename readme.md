@@ -9,6 +9,11 @@ I have created this repository for my self learning and reference on my journey 
     - You will get an OS level disk as well as a temporary D drive, you can also add an additional disk for database
     - Select default encryption at rest
     - The VM can have a public IP address if it is hosting a web application that will be accessed by the public
+        - A public IP address can also be added at a later time
     - Create a **virtual network** as you creat a VM 
         - Primary virtual network interface - has its own IP address, used for internal communication
     - An NSG is also created the controls permissions for the ports
+
+- **Create a Storage account**
+    - Azure blob service
+    - While you can store data on your local VM - the storage account offers the flexibility of increasing capacity over time, limited options with the VM
