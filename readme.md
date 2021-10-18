@@ -35,8 +35,8 @@ I have created this repository for my self learning and reference for expert Clo
                 - Specify the connectivity options - a firewall is connected by default - options: No access, public endpoint, private endpoint
                 - You can add your current computer IP address to the firewall rules as well as permit Azure service/resources to access the server
                 - You can use **SQL server management studio** as you work with SQL databases - install this tool on your local machine to access the server 
-    - Once created you can run the SQL server management studio
-        - The server name is the webaddress of the SQL server you created and you use the login credentials in order to connect
+    - Once created , you can locate the database in resources by its name, you can run the SQL server management studio
+        - The server name is the webaddress of the SQL server which you can locate from the database resource homepage that you created and you use the login credentials in order to connect
 
     - **Building an appliation**
         - Will be hosted on an Azure VM and Azure webapp
