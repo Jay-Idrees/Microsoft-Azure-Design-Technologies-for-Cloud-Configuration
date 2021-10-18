@@ -94,6 +94,7 @@ I have created this repository for my self learning and reference for expert Clo
                     - To view these visualizations go to `Network watcher || traffic analytics`
                     - There are options for malacious traffic and blocked traffic for a more granular analysis
                     - **Service Map**
+                        - This feature offers a more in depth assessment of what processess are running on the VMs
                         - Go to `workspace resource || Service map` to issue an agent. This can be done with a command that will install an Azure monitoring dependency agent as an extension
                         - Note that when you are first running the powershell, you may have to select a storage account for filesharing before you can run the commands
                         - Below is the command to install this agent
