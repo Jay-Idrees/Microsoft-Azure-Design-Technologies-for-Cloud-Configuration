@@ -90,3 +90,5 @@ I have created this repository for my self learning and reference for expert Clo
                     - This is another service that analyzes the traffic
                     - Search for network watcher from general resources `Network watcher || NSG flow logs > turn on traffic analytics status`
                     - Then also select the log analytics workspace
+                    - You can specify the processing interval to create visualizations
+                    - To view these visualizations go to `Network watcher || traffic analytics`
