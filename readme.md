@@ -75,7 +75,7 @@ I have created this repository for my self learning and reference for expert Clo
             - You can select between static and dynamic routes
             - You can also create action groups, dictating what to do when a threshold is met. You can configure to e-mail and administrator or you can run scripts in response to an alert
         - **Configure logs** 
-            - Create Log analytics workspace and connect the VM to it
+            - **Create Log analytics workspace** and connect the VM to it
             - Install an analytics agent on the VM this is what 'connect' does
             - You can then configure the agent to specify what type of logs are you looking to transfer to the workspace
             - Logs can be grouped into various categories
@@ -86,3 +86,7 @@ I have created this repository for my self learning and reference for expert Clo
             - You can locate the NSG group by goting to the `VM resource || networking`
             - When you click on the network security group, you will see there is an option for `flow logs` - turn it on, select the version- version 2 has additional information about the package etc
             - Logs are stored in the storage account - so a storage account must be linked with flow log settings. Once the account has been linked, you can verify if by going to the storage accout and you will notice a new flow logs container
+                - **Network watcher**
+                    - This is another service that analyzes the traffic
+                    - Search for network watcher from general resources `Network watcher || NSG flow logs > turn on traffic analytics status`
+                    - Then also select the log analytics workspace
