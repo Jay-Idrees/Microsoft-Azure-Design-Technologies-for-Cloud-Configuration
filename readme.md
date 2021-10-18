@@ -57,3 +57,12 @@ I have created this repository for my self learning and reference for expert Clo
                 - Select management service and then click enable remote connections. Then click apply and start - this ensures that the webserver will take requests from virtual studio
                 - Turn off enhanced security configuration from the main dashboard
             - Then you can download and install the .Net core 3.1 to configure the server to run a .net application - you have to select the `windows hosting bundle` - There is a different installation file based on the type of OS - for example there is a different one for linux
+            - Next you have to install another software `web deploy` which deploys the application on to the internet information services
+                - **Configure a DNS name**
+                    - Go to the VM resource > click not configured under DNS name > type a DNS name label
+                    - Go to the VM resource || networking > Add inbound rule to allow port 8172, the port that you assigned with the management service when configuring IIS on the VM
+        - Once the installations are complete. You then have to create a `webapp resource` in Azure
+            - Create webapp from main resources > Create a resorce
+                - Give it a name
+                - Select code vs container for now and select runtime stack as .Net core 3.1(LTS)
+                - Select a region, and it will automatically select a new `app service plan`, you can also `select the sku such as the basic app service plan`
