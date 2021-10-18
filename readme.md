@@ -68,3 +68,9 @@ I have created this repository for my self learning and reference for expert Clo
                 - Select a region, and it will automatically select a new `app service plan`, you can also `select the sku such as the basic app service plan`
                 - For the monitoring of your app you can create a new resource called `application insights` - give name and specify the region
                 - Once the deployment is complete, go to the resource, you will find the url of the webapp. If you paste it in the browser, it will show a default webpage
+                - Once all these steps are complete, the app will be deployed on the Vm as a webapp
+
+        - **Application Monitoring**
+            - Finally after the app has been configured and deployed. You can then setup monitoring, which will assess logs and you can configure alerts etc
+            - You can select between static and dynamic routes
+            - You can also create action groups, dictating what to do when a threshold is met. You can configure to e-mail and administrator or you can run scripts in response to an alert
