@@ -40,6 +40,7 @@ I have created this repository for my self learning and reference for expert Clo
 
     - **Building an appliation**
         - Will be hosted on an Azure VM and Azure webapp
+        - The first part is setting up MYSQL server and a storage account and creating the required tables in the MYSQL database
             - **Setting up tables in the SQL database**
                 - Use SQL server management studio to create tables and insert values
                 - Select the database by name right click - new query and then you can paste your commands > click execute
