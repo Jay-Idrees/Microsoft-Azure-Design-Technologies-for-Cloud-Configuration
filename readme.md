@@ -67,3 +67,4 @@ I have created this repository for my self learning and reference for expert Clo
                 - Select code vs container for now and select runtime stack as .Net core 3.1(LTS)
                 - Select a region, and it will automatically select a new `app service plan`, you can also `select the sku such as the basic app service plan`
                 - For the monitoring of your app you can create a new resource called `application insights` - give name and specify the region
+                - Once the deployment is complete, go to the resource, you will find the url of the webapp. If you paste it in the browser, it will show a default webpage
