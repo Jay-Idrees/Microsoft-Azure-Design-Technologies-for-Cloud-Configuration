@@ -85,4 +85,4 @@ I have created this repository for my self learning and reference for expert Clo
             - Useful information like source and destination IP and ports and the outcome of the address
             - You can locate the NSG group by goting to the `VM resource || networking`
             - When you click on the network security group, you will see there is an option for `flow logs` - turn it on, select the version- version 2 has additional information about the package etc
-            - Logs are stored in the storage account - so a storage account must be linked with flow log settings
+            - Logs are stored in the storage account - so a storage account must be linked with flow log settings. Once the account has been linked, you can verify if by going to the storage accout and you will notice a new flow logs container
