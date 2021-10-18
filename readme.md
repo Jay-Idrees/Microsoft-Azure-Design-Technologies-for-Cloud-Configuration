@@ -77,7 +77,7 @@ I have created this repository for my self learning and reference for expert Clo
         - **Configure logs** 
             - **Create Log analytics workspace** and connect the VM to it
             - Install an analytics agent on the VM this is what 'connect' does
-            - You can then configure the agent to specify what type of logs are you looking to transfer to the workspace
+            - You can then configure the agent to specify what type of logs are you looking to transfer to the workspace like events performance etc
             - Logs can be grouped into various categories
 
         - **NSG flow logs**
@@ -92,3 +92,6 @@ I have created this repository for my self learning and reference for expert Clo
                     - Then also select the log analytics workspace
                     - You can specify the processing interval to create visualizations
                     - To view these visualizations go to `Network watcher || traffic analytics`
+                    - There are options for malacious traffic and blocked traffic for a more granular analysis
+                    - **Service Map**
+                        - Go to `workspace resource || Service map` to issue an agent. This can be done with a command that will install an Azure monitoring dependency agent
