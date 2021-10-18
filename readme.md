@@ -52,4 +52,7 @@ I have created this repository for my self learning and reference for expert Clo
             - You can use various backend languages like .net, node, java. This program will have a frontend and a backend
             - The backend portion will contain the queries for database
         - **Setting up a webserver on VM to publish application**
-            - Go to the server dashboard > roles and features> select role based> check Webserver IIS > next and then check management services under management tools to allow solutions from virtual studio
+            - Go to the `server dashboard > roles and features> select role based> check Webserver IIS > next and then check management services under management tools to allow solutions from virtual studio`
+            - Open internet information services manager
+                - Select management service and then click enable remote connections. Then click apply and start - this ensures that the webserver will take requests from virtual studio
+                - Turn off enhanced security configuration from the main dashboard
