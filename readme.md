@@ -44,3 +44,6 @@ I have created this repository for my self learning and reference for expert Clo
                 - Use SQL server management studio to create tables and insert values
                 - Select the database by name right click - new query and then you can paste your commands > click execute
                 - Note that in the database, only the image links are stored, but you can store the images in the Azure storage account
+            - **Uploading the images into the storage account**
+                - Go to the `storage account || containers > create a new container and call it images > select Blob under public access level`
+                - Open images and upload the file. You will get the image url
