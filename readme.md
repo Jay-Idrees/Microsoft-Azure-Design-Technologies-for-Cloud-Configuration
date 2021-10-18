@@ -62,7 +62,8 @@ I have created this repository for my self learning and reference for expert Clo
                     - Go to the VM resource > click not configured under DNS name > type a DNS name label
                     - Go to the VM resource || networking > Add inbound rule to allow port 8172, the port that you assigned with the management service when configuring IIS on the VM
         - Once the installations are complete. You then have to create a `webapp resource` in Azure
-            - Create webapp from main resources > Create a resorce
+            - **Create webapp from main resources > Create a resorce**
                 - Give it a name
                 - Select code vs container for now and select runtime stack as .Net core 3.1(LTS)
                 - Select a region, and it will automatically select a new `app service plan`, you can also `select the sku such as the basic app service plan`
+                - For the monitoring of your app you can create a new resource called `application insights` - give name and specify the region
