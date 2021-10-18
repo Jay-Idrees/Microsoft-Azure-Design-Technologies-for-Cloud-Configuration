@@ -98,3 +98,6 @@ I have created this repository for my self learning and reference for expert Clo
                         - Note that when you are first running the powershell, you may have to select a storage account for filesharing before you can run the commands
                         - Below is the command to install this agent
                         - `Set-AzVMExtension -ExtensionName "Microsoft.Azure.Monitoring.DependencyAgent" -ResourceGroupName "new-grp" -VMName "demovm" -Publisher "Microsoft.Azure.Monitoring.DependencyAgent" -ExtensionType "DependencyAgentWindows" -TypeHandlerVersion 9.5 -Location NorthEurope`
+                        - The service map now created, needs to be added to the workspace
+                            - `workspace resource || workspace summary under general > add > in th search type service map > Create service map solution`
+                            - Once created, under the `workspace resource || summary` you will be able to see the service map
