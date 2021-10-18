@@ -56,3 +56,4 @@ I have created this repository for my self learning and reference for expert Clo
             - Open internet information services manager
                 - Select management service and then click enable remote connections. Then click apply and start - this ensures that the webserver will take requests from virtual studio
                 - Turn off enhanced security configuration from the main dashboard
+            - Then you can download and install the .Net core 3.1 to configure the server to run a .net application - you have to select the `windows hosting bundle` - There is a different installation file based on the type of OS - for example there is a different one for linux
