@@ -48,3 +48,8 @@ I have created this repository for my self learning and reference for expert Clo
             - **Uploading the images into the storage account**
                 - Go to the `storage account || containers > create a new container and call it images > select Blob under public access level`
                 - Open images and upload the file. You will get the image url
+        - **Writing the code for application**
+            - You can use various backend languages like .net, node, java. This program will have a frontend and a backend
+            - The backend portion will contain the queries for database
+        - **Setting up a webserver on VM to publish application**
+            - Go to the server dashboard > roles and features> select role based> check Webserver IIS > next and then check management services under management tools to allow solutions from virtual studio
