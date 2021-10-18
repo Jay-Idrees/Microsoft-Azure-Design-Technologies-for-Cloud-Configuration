@@ -74,3 +74,13 @@ I have created this repository for my self learning and reference for expert Clo
             - Finally after the app has been configured and deployed. You can then setup monitoring, which will assess logs and you can configure alerts etc
             - You can select between static and dynamic routes
             - You can also create action groups, dictating what to do when a threshold is met. You can configure to e-mail and administrator or you can run scripts in response to an alert
+        - **Configure logs** 
+            - Create Log analytics workspace and connect the VM to it
+            - Install an analytics agent on the VM this is what 'connect' does
+            - You can then configure the agent to specify what type of logs are you looking to transfer to the workspace
+            - Logs can be grouped into various categories
+
+        - **NSG flow logs**
+            - Captures logs for traffic - IP flows - useful for the security team
+            - Useful information like source and destination IP and ports and the outcome of the address
+            - You can locate the NSG group by goting to the `VM resource || networking`
