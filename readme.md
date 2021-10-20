@@ -186,3 +186,4 @@ I have created this repository for my self learning and reference for expert Clo
             - Another useful connector is `Security events` from windows VM machines. This will require installation of an agent onto the windows VM
                 - If you want to add Security events then you will also have to add that particular VM to Sentinel workspace
                 - `Sentinel workspace || virtual machines > Select the VM from list > click connect` The connect here will install an agent on the VM that will manage transfering event logs to the sentinel workspace
+                - You can manually look at the security events on a windows Vm by RDP to the VM and then opening `event viewer` > windows log > security there you can see all the recorded security events
