@@ -166,3 +166,4 @@ I have created this repository for my self learning and reference for expert Clo
             - You can also configure `smart alerts `that utilize machine learning 
                 - You can go to the `application insights resource || smart detection > settings - you can find smart detection rules`
             - You can also use the `continues expert feature` for data analysis
+                - You can go to the `application insights resource || continues resource > add` Where you can specify what type of data you want to send to your storage account
