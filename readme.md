@@ -167,3 +167,5 @@ I have created this repository for my self learning and reference for expert Clo
                 - You can go to the `application insights resource || smart detection > settings - you can find smart detection rules`
             - You can also use the `continues expert feature` for data analysis
                 - You can go to the `application insights resource || continues resource > add` Where you can specify what type of data you want to send to your storage account
+ - **Azure Sentinel**
+    - This is an Azure Cybersecurity Instrument that can perform SEIM (Security Information Event Management) and SOAR (Security Orchestration Automatied Response)
