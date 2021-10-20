@@ -234,7 +234,7 @@ I have created this repository for my self learning and reference for expert Clo
                 - Then you can select a particular user from the search and assign it a role
                 - From the default root user account `Azure AD || Users > find the user > Assigned roles > Add assignment > Select role of User administrator` - This will allow the user to manage the users - including creating new users
                 - You can also decide the assignment type elligible vs active (immediate)
-- **Azure AD privilidged Identity management**
+- **Azure AD privilidged Identity management** - This feature is only available in Azure premium P2 license
     - The global administrator assigns special permissions to one of the user (prvilidged user) that can intern perform global administrator like functions such as creating or deleting VM ir SQL databases
     - The problem is that If this user moves onto a different department, this privilidged access will need to be removed
     - To avoid this problem, Azure AD privilileged identity management can be used - the benifit it offers is of temporary nature
@@ -245,8 +245,13 @@ I have created this repository for my self learning and reference for expert Clo
         - In the active pathway, the privilidges go in effect right away - when setting this up you have to options of 
             - `Privilidged identity management || AZure AD roles under manage - THis leads to the default directory homepage || settings > Search for the user administrator role > edit`
                 - On this page you will see the tabs of Activation, Assignment and Notification
-                    - Activation - you can select where multi-factor identification is to be applied
+                    - **Activation** - you can select where multi-factor identification is to be applied
                     - You can select max activation duration - this is the number of hrs the user with this privilidge have to perform certain tasks once activated
-                    - Assignment - Here you can specify whether you want it to be a permanent elligible assignement or a permanent active assignment OR you can specify an expiration time (e-g expire after 15 days). The elligible option offers an additional layer of security as it does not go into effect right away, the user who is rendered this elligibility will have to perform the activation from his/her account
-                    - Notification - Who should be notified when the role has been assigned
-    
+                    - **Assignment** - Here you can specify whether you want it to be a permanent elligible assignement or a permanent active assignment OR you can specify an expiration time (e-g expire after 15 days). The elligible option offers an additional layer of security as it does not go into effect right away, the user who is rendered this elligibility will have to perform the activation from his/her account
+                    - **Notification** - Who should be notified when the role has been assigned
+            - `Azure AD || users > search the user > click the user || assigned roles` - here you will be able to see the assignment
+            - **Adding a new assignment**
+                - `Azure AD || users > search the user > click the user || assigned roles > Add assignment > select user administrator role`
+                    - Select assignment type as eligible - It will have a start and end date - This date range is only when this particular user will be eligible to take up this role
+                    - Next if you go inside this user's account by logging in you will see that this user will now be able to activate this elligibility
+                    - The elligibility will be available only during the specified dates, during which the user can activate this additional privilidge and once the privilidge is activated there will only be a set number of hrs during which the user can perform the task. However, within the eligibility period. The user will be able to reactivate for this role multiple times
