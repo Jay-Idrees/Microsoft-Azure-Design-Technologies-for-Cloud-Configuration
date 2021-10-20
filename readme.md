@@ -187,3 +187,23 @@ I have created this repository for my self learning and reference for expert Clo
                 - If you want to add Security events then you will also have to add that particular VM to Sentinel workspace
                 - `Sentinel workspace || virtual machines > Select the VM from list > click connect` The connect here will install an agent on the VM that will manage transfering event logs to the sentinel workspace
                 - You can manually look at the security events on a windows Vm by RDP to the VM and then opening `event viewer` > windows log > security there you can see all the recorded security events
+        - **Workbooks**
+            - If you go to `Azure sentinel resource || data connectors`, Once you select a data connector then under the `next` tab you will see a set of recommended workbooks > view templates - you can visualize a lot of the data that way
+            - The benifit of looking at these workbooks is that you do not have to look at the `event viewer` by manually going to a machine
+
+# Azure Security and Identity
+
+- Two main steps: Authentication - verifying your username and password, the next step is authorization for a resource - this occurs at the subscription level and is user specific. 
+- Hierarchy -> Resources > Resource groups > Subscriptions > Management groups (group subscriptions together) > Tenant root group
+- Note that the permissions get inherited as you move down the hierarchy
+
+## Azure Active directory
+
+- You can create users, groups, roles and administrators
+- Azure AD connect lets you connect your on premises users with the Azure active directory
+- You can look at all the features available with the Azure active directory onto the Azure active directory pricing webpage
+- The premium version of active directory also offers
+    - Self-service password reset
+    - Conditional access policies
+    - Identity governanace, access reviews and privilidged idendity
+    - The pricing is per user per month
