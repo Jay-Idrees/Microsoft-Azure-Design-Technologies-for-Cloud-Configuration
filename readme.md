@@ -163,4 +163,6 @@ I have created this repository for my self learning and reference for expert Clo
             - you can then search the `application insights resource from resources || live metrics`
             - Before you will see anything on the live metrics you will have to publish your project from visual studio into the webap
             - You can also review performace of the appliation by going to the `application insights resource || performance`. Likewise other usefule features include `failures` and `users`
-            - You can also configure smart alerts that utilize machine learning 
+            - You can also configure `smart alerts `that utilize machine learning 
+                - You can go to the `application insights resource || smart detection > settings - you can find smart detection rules`
+            - You can also use the `continues expert feature` for data analysis
