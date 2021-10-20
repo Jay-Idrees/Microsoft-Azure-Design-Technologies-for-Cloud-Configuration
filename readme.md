@@ -162,3 +162,4 @@ I have created this repository for my self learning and reference for expert Clo
         - While creating the application insights resource, under monitoring you can add **Application insights** resource
             - you can then search the `application insights resource from resources || live metrics`
             - Before you will see anything on the live metrics you will have to publish your project from visual studio into the webap
+            - You can also review performace of the appliation by going to the `application insights resource || performance`
