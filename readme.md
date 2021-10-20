@@ -143,4 +143,10 @@ I have created this repository for my self learning and reference for expert Clo
 - **Azure Reserve Pricing**
     - It is a huge saving opportunity - if you buy a 1-3 year commitment to reserve instance
     - This is bascally a discount that is offered with a commitment to use that reserve for a specific duration of period
+    - You do have the ability to cancel a reservation
+
+- **Reviewing subscriptions based on tags**
+    - Tags can be used to mark certain departments within a company
+    - You can then filter costs for a particular department based on tags
+    - Select a particular `subscription || cost analysis under cost management > under top bars with filter`, select the tag for the department you are looking to analyze costs
 
