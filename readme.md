@@ -110,4 +110,22 @@ I have created this repository for my self learning and reference for expert Clo
 
 - You can review all the sign ins to the Azure AD by selecting the Azure Active directory from the main left panel and then you can select Users
 - You can click the `default directory` from top left and then select `sign-ins` under monitoring - It will show all the sign in activity
-- You can add a diagnostic setting - where you can select various type of logs such as audit logs, signin logs etc to a certain destination including analytics workspace or storage account or an event hub
+- You can add a diagnostic setting - where you can select various type of logs such as `audit logs, signin logs` etc to a certain destination including analytics workspace or storage account or an event hub
+    - Once this setting has been enabled. You can verify it by going to `work space resource || log management`
+
+## Costing Estimates
+ - Pricing calculator - you can get to it by searching for `Azure pricing calculator` 
+    - There are various categories for which you can estimate costs like VM, storage accounts, SQL etc
+    - **VM**
+        - Windows VM cost more than linux due to licensing, almost double the price/mo
+        - Region also effects price
+        - Disk size and the duration 
+        - Compute and Disks costs are separate. The compute costs are the running costs - even if the VM is shut off, you will still be charged for disks
+        - Storage transactions also cost
+        - Transfer of data on to different region can be costly
+    - **Storage account**
+        - Capacity
+        - Write operations
+        - Container and read operations
+        - 
+
