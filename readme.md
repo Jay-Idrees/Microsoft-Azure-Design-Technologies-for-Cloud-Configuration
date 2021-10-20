@@ -221,4 +221,31 @@ I have created this repository for my self learning and reference for expert Clo
     - You can grant acces to a user to a particular VM
         - Go to the `VM resource || Access control > Add > Add role assignment > reader role > Under select search a user`
         - Once this access has been granted, if you log in with the same user account. You will now be able to see the VM on the dashboard
-        - This user will only be able to have limied access to this VM as we previously only permitted `read` level access - for example the user will not be able to see the IP address and subnet associated with the VM
+        - This user will only be able to have limied access to this VM as we previously only permitted `read` level access - for example the user will not be able to see the IP address and subnet associated with the VM - these are separate resources and the user did not have access to these
+        - To overcome this you can grant access to the user at the resource group level in addition to the VM level to which the VM is part of
+            - Once this is scuccessfull, then when you log in with this user you will now be able to see all the resources listed on the dashboard if you log on to the resource with this user
+            - This user will not be able to stop the VM as this user was not granted with `contributor` level access
+- **Azure Active Directory roles that can be assigned to the users**
+- Note that the Subscription based roles (Role based access control - subscription level) is different from Azure Active directory roles
+- Role based access control is more of an administrative level permission as to what level of permissions this user can further assign, where as Azure active directory roles are limited to the resource group access
+        - **Dedicating some administrative roles to the users**
+            - While logged in as the root admin Azure active directory || Roles and administrators
+                - There you can see what role is currently assigned to the account - for the root admin its `global administrator`
+                - Then you can select a particular user from the search and assign it a role
+                - From the default root user account `Azure AD || Users > find the user > Assigned roles > Add assignment > Select role of User administrator` - This will allow the user to manage the users - including creating new users
+                - You can also decide the assignment type elligible vs active (immediate)
+- **Azure AD privilidged Identity management**
+    - The global administrator assigns special permissions to one of the user (prvilidged user) that can intern perform global administrator like functions such as creating or deleting VM ir SQL databases
+    - The problem is that If this user moves onto a different department, this privilidged access will need to be removed
+    - To avoid this problem, Azure AD privilileged identity management can be used - the benifit it offers is of temporary nature
+        - **Features**:Just in time and time-bound and requiring activation of privilidged roles, implement multi-factor authentication to active role and setting notifications when a privilidged role is activated, conduct access reviews
+        - this feature can only be implemented with `premium access` of AD
+    - Select the `privilidged identity management from general resources` 
+        - There are two pathways, one is the active pathway the other is the eligibility pathway
+        - In the active pathway, the privilidges go in effect right away - when setting this up you have to options of 
+            - `Privilidged identity management || AZure AD roles under manage - THis leads to the default directory homepage || settings > Search for the user administrator role > edit`
+                - On this page you will see the tabs of Activation, Assignment and Notification
+                    - Activation - you can select where multi-factor identification is to be applied
+                    - You can select max activation duration - this is the number of hrs the user with this privilidge have to perform certain tasks once activated
+                    - Assignment - Here you can specify whether you want it to be a permanent elligible assignement or a permanent active assignment OR you can specify an expiration time (e-g expire after 15 days)
+    
