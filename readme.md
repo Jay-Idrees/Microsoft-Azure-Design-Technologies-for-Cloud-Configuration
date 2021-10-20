@@ -149,4 +149,10 @@ I have created this repository for my self learning and reference for expert Clo
     - Tags can be used to mark certain departments within a company
     - You can then filter costs for a particular department based on tags
     - Select a particular `subscription || cost analysis under cost management > under top bars with filter`, select the tag for the department you are looking to analyze costs
+    - Tags work better at the level of an individual reseource rather then at the level of a resource group
 
+- **Application insights**
+    - This offers infomation about how the users interact with the application e-g page views
+    - If you work on a project through visual studio, there is an option to work with `application insights telemetry`
+    - You will be able to see th GET requests, response code and response time
+    - Visual studio can send the telemetry application insights data to a resource on Azure
