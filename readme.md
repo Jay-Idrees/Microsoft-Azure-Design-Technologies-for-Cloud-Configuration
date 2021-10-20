@@ -167,8 +167,9 @@ I have created this repository for my self learning and reference for expert Clo
                 - You can go to the `application insights resource || smart detection > settings - you can find smart detection rules`
             - You can also use the `continues expert feature` for data analysis
                 - You can go to the `application insights resource || continues resource > add` Where you can specify what type of data you want to send to your storage account
- - **Azure Sentinel**
+ - **Azure Sentinel Service**
     - This is an Azure Cybersecurity Instrument that can perform SEIM (Security Information Event Management) and SOAR (Security Orchestration Automatied Response)
-    - It consists of `connectors`
+    - It consists of `connectors` that connects the data to services. For example Azure sentinel service can be connected to the Azure analytics workspace via the connectors
     - Cybersecurity cycle: Visibility, Analytics, hunting, Incidents, Automation
     - **Azure Security Center** allows you to look at the visibiity and analytics phase of the cybersecurity cycle
+    - Azure sentinel allows you to look at all the phases of the cybersecurity cycle
