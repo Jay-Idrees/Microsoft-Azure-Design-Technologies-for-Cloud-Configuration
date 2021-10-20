@@ -180,3 +180,4 @@ I have created this repository for my self learning and reference for expert Clo
         - Create a log analytics workspace
             - Select resource, location, name (e-g `sentinelworkspace`)
         - Select Azure Sentinel from the main resources || data connectors
+            - Among the connectors you can select `Azure Active Directory`
