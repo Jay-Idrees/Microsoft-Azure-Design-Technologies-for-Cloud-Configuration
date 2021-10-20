@@ -134,5 +134,5 @@ I have created this repository for my self learning and reference for expert Clo
     - It the resourse is not being used, then delete it
     - You can look at it by going to the resource homepage and under the `monitoring` tab you can review whether a particular resource is being used
     - If the CPU usage is less than 6% then it can tell you that you can possibly reduce the instance size 
-    - This way you can determine what the sizing of the resource can be 
+    - This way you can determine what the sizing of the resource can be, the catch is that there is always some downtown with changing the size - so this should be tested in the staging environment rather than production
 
