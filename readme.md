@@ -129,4 +129,8 @@ I have created this repository for my self learning and reference for expert Clo
         - Container and read operations
 - Likewise there are other components which you can look into such as database, Kubernetes, Azure functios
 - You can also look at cost-analysis by subscription
+- You can select you `subsciption || cost analysis` which will give you break down according to service name, location, resource group
+- Optimizing costs
+    - It the resourse is not being used, then delete it
+    - You can look at it by going to the resource homepage and under the `monitoring` tab you can review whether a particular resource is being used
 
