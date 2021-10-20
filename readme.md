@@ -180,4 +180,6 @@ I have created this repository for my self learning and reference for expert Clo
         - Create a log analytics workspace
             - Select resource, location, name (e-g `sentinelworkspace`)
         - Select Azure Sentinel from the main resources || data connectors
-            - Among the connectors you can select `Azure Active Directory`
+            - Among the connectors you can select `Azure Active Directory` Then open up that connector 
+            - There you can check mark the type of logs that can be sent to Azure Sentinel from the Azure Active Directory - these can incude sign in logs, audit logs etc
+            - Likewise there are multiple connectors that you can link to Azure Sentinel, such as you can add `Azure activity` This will send all of Azure activity logs from Azure subscription to Azure Sentinel
