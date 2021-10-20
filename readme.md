@@ -170,6 +170,13 @@ I have created this repository for my self learning and reference for expert Clo
  - **Azure Sentinel Service**
     - This is an Azure Cybersecurity Instrument that can perform SEIM (Security Information Event Management) and SOAR (Security Orchestration Automatied Response)
     - It consists of `connectors` that connects the data to services. For example Azure sentinel service can be connected to the Azure analytics workspace via the connectors
+    - Data connectors also allow you to connect to the external services
     - Cybersecurity cycle: Visibility, Analytics, hunting, Incidents, Automation
     - **Azure Security Center** allows you to look at the visibiity and analytics phase of the cybersecurity cycle
-    - Azure sentinel allows you to look at all the phases of the cybersecurity cycle
+    - Azure sentinel allows you to look at all the phases of the cybersecurity cycle - It is a separate resource than Azure sentinel
+    - Then there are builtin workbooks and queries
+    - You cannot enable the log analytic workspace to Azure Sentinel if you have already linked it with Azure Security center
+    - `Steps`
+        - Create a log analytics workspace
+            - Select resource, location, name (e-g `sentinelworkspace`)
+        - Select Azure Sentinel from the main resources || data connectors
