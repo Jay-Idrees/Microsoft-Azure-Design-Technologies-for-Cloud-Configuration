@@ -169,3 +169,6 @@ I have created this repository for my self learning and reference for expert Clo
                 - You can go to the `application insights resource || continues resource > add` Where you can specify what type of data you want to send to your storage account
  - **Azure Sentinel**
     - This is an Azure Cybersecurity Instrument that can perform SEIM (Security Information Event Management) and SOAR (Security Orchestration Automatied Response)
+    - It consists of `connectors`
+    - Cybersecurity cycle: Visibility, Analytics, hunting, Incidents, Automation
+    - **Azure Security Center** allows you to look at the visibiity and analytics phase of the cybersecurity cycle
