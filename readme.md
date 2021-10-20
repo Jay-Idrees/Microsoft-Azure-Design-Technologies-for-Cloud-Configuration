@@ -84,8 +84,8 @@ I have created this repository for my self learning and reference for expert Clo
             - Captures logs for traffic - IP flows - useful for the security team
             - Useful information like source and destination IP and ports and the outcome of the address
             - You can locate the NSG group by goting to the `VM resource || networking`
-            - When you click on the network security group, you will see there is an option for `flow logs` - turn it on, select the version- version 2 has additional information about the package etc
-            - Logs are stored in the storage account - so a storage account must be linked with flow log settings. Once the account has been linked, you can verify if by going to the storage accout and you will notice a new flow logs container
+            - When you click on the network security group, you will see there is an option for `flow logs` - turn it on, select the version- version 2 has additional information about the packaging of bit size etc
+            - Logs are stored in the storage account - so a storage account must be linked with flow log settings. Once the account has been linked, you can verify it by going to the storage account and you will notice a new flow logs container
                 - **Network watcher**
                     - This is another service that analyzes the traffic
                     - Search for network watcher from general resources `Network watcher || NSG flow logs > turn on traffic analytics status`
