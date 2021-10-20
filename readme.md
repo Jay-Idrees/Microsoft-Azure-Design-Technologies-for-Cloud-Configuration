@@ -102,3 +102,7 @@ I have created this repository for my self learning and reference for expert Clo
                         - The service map now created, needs to be added to the workspace
                             - `workspace resource || workspace summary under general > add > in th search type service map > Create service map solution`
                             - Once created, under the `workspace resource || summary` you will be able to see the service map
+            
+            - **Azure SQL diagnostics**
+                - GO to the SQL DB resource || disgnostics under monitoring > Add diagnostic setting
+                    Then you can stream various types of logs like errors, timeouts, basic metrics, by selecting their category and then also selecting the destination details by checking 'send to log analytics workspace' 
