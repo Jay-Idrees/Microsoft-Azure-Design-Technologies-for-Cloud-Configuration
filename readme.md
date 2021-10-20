@@ -152,6 +152,7 @@ I have created this repository for my self learning and reference for expert Clo
     - Tags work better at the level of an individual reseource rather then at the level of a resource group
 
 - **Application insights**
+    - Allows integration of application insights service with Azure webapp service can let you track live stats about the website
     - This offers infomation about how the users interact with the application e-g page views
     - If you work on a project through visual studio, there is an option to work with `application insights telemetry`
     - You will be able to see th GET requests, response code and response time
