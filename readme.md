@@ -247,5 +247,6 @@ I have created this repository for my self learning and reference for expert Clo
                 - On this page you will see the tabs of Activation, Assignment and Notification
                     - Activation - you can select where multi-factor identification is to be applied
                     - You can select max activation duration - this is the number of hrs the user with this privilidge have to perform certain tasks once activated
-                    - Assignment - Here you can specify whether you want it to be a permanent elligible assignement or a permanent active assignment OR you can specify an expiration time (e-g expire after 15 days)
+                    - Assignment - Here you can specify whether you want it to be a permanent elligible assignement or a permanent active assignment OR you can specify an expiration time (e-g expire after 15 days). The elligible option offers an additional layer of security as it does not go into effect right away, the user who is rendered this elligibility will have to perform the activation from his/her account
+                    - Notification - Who should be notified when the role has been assigned
     
