@@ -127,5 +127,6 @@ I have created this repository for my self learning and reference for expert Clo
         - Capacity
         - Write operations
         - Container and read operations
-        - 
+- Likewise there are other components which you can look into such as database, Kubernetes, Azure functios
+- You can also look at cost-analysis by subscription
 
