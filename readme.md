@@ -138,4 +138,9 @@ I have created this repository for my self learning and reference for expert Clo
 - **Azure advisor service** from the main dashboard 
     - It can provide recommendations based on cost
     - For example it can inform about a reserve instance to save on cost over a VM that is running for a long time, but not being utilized
+- **Budgets**
+    - You can go to your `subscription || budgets under cost management` You can define a monthly amount, if that is exceeded, you will get an email notification
+- **Azure Reserve Pricing**
+    - It is a huge saving opportunity - if you buy a 1-3 year commitment to reserve instance
+    - This is bascally a discount that is offered with a commitment to use that reserve for a specific duration of period
 
