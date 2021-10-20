@@ -207,3 +207,18 @@ I have created this repository for my self learning and reference for expert Clo
     - Conditional access policies
     - Identity governanace, access reviews and privilidged idendity
     - The pricing is per user per month
+- **Trust relation b/w Azure active directory and subscription**
+- The subscription must trust the user in the Azure active directory, before it will allow access to the resources
+- Go to Azure subscriptions > change directory - by default it will select your default directory - however you can creat addtional directories and then you can tell the subscription to trust the new directory
+- There are pre-built roles that you can assign. 
+    - 4 high level roles: Contributor (Cannot allow permissions for additional roles), owner, reader, User access Administrator
+- **Creating a new user in Azure Active Directory**
+    - `Active directory || users > new user` Its basically like creating a new e-mail based on the website that is linked to your Azure account
+        - While you create the user you give it a username and password
+        - The first time log in will require the user to change the password
+        - Then you can sign in with this new username from the same Azure portal
+            - This user will not be able to see any of the resources
+    - You can grant acces to a user to a particular VM
+        - Go to the `VM resource || Access control > Add > Add role assignment > reader role > Under select search a user`
+        - Once this access has been granted, if you log in with the same user account. You will now be able to see the VM on the dashboard
+        - This user will only be able to have limied access to this VM as we previously only permitted `read` level access - for example the user will not be able to see the IP address and subnet associated with the VM
