@@ -183,3 +183,6 @@ I have created this repository for my self learning and reference for expert Clo
             - Among the connectors you can select `Azure Active Directory` Then open up that connector 
             - There you can check mark the type of logs that can be sent to Azure Sentinel from the Azure Active Directory - these can incude sign in logs, audit logs etc
             - Likewise there are multiple connectors that you can link to Azure Sentinel, such as you can add `Azure activity` This will send all of Azure activity logs from Azure subscription to Azure Sentinel
+            - Another useful connector is `Security events` from windows VM machines. This will require installation of an agent onto the windows VM
+                - If you want to add Security events then you will also have to add that particular VM to Sentinel workspace
+                - `Sentinel workspace || virtual machines > Select the VM from list > click connect` The connect here will install an agent on the VM that will manage transfering event logs to the sentinel workspace
