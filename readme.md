@@ -156,3 +156,8 @@ I have created this repository for my self learning and reference for expert Clo
     - If you work on a project through visual studio, there is an option to work with `application insights telemetry`
     - You will be able to see th GET requests, response code and response time
     - Visual studio can send the telemetry application insights data to a resource on Azure
+    - On **Azure portal**
+        - Create a webap resource from general resources
+        - While creating the application insights resource, under monitoring you can add **Application insights** resource
+            - you can then search the `application insights resource from resources || live metrics`
+            - Before you will see anything on the live metrics you will have to publish your project from visual studio into the webap
