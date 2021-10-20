@@ -104,5 +104,9 @@ I have created this repository for my self learning and reference for expert Clo
                             - Once created, under the `workspace resource || summary` you will be able to see the service map
             
             - **Azure SQL diagnostics**
-                - GO to the SQL DB resource || disgnostics under monitoring > Add diagnostic setting
-                    Then you can stream various types of logs like errors, timeouts, basic metrics, by selecting their category and then also selecting the destination details by checking 'send to log analytics workspace' Then you can select the log analytics workspace reseource
+                - GO to the `SQL DB resource || disgnostics under monitoring > Add diagnostic setting`
+                - Then you can stream various types of logs like errors, timeouts, basic metrics, by selecting their category and then also selecting the destination details by checking 'send to log analytics workspace' Then you can select the log analytics workspace reseource
+                - This setting will forward all the SQL diagnostics data to log analytics workspace
+
+- You can review all the sign ins to the Azure AD by selecting the Azure Active directory from the main left panel and then you can select Users
+- You can click the `default directory` from top left and then select `sign-ins` - It will show all the sign in activity
