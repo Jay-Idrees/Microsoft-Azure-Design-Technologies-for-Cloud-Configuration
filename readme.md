@@ -105,4 +105,4 @@ I have created this repository for my self learning and reference for expert Clo
             
             - **Azure SQL diagnostics**
                 - GO to the SQL DB resource || disgnostics under monitoring > Add diagnostic setting
-                    Then you can stream various types of logs like errors, timeouts, basic metrics, by selecting their category and then also selecting the destination details by checking 'send to log analytics workspace' 
+                    Then you can stream various types of logs like errors, timeouts, basic metrics, by selecting their category and then also selecting the destination details by checking 'send to log analytics workspace' Then you can select the log analytics workspace reseource
