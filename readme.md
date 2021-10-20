@@ -109,4 +109,5 @@ I have created this repository for my self learning and reference for expert Clo
                 - This setting will forward all the SQL diagnostics data to log analytics workspace
 
 - You can review all the sign ins to the Azure AD by selecting the Azure Active directory from the main left panel and then you can select Users
-- You can click the `default directory` from top left and then select `sign-ins` - It will show all the sign in activity
+- You can click the `default directory` from top left and then select `sign-ins` under monitoring - It will show all the sign in activity
+- You can add a diagnostic setting - where you can select various type of logs such as audit logs, signin logs etc to a certain destination including analytics workspace or storage account or an event hub
