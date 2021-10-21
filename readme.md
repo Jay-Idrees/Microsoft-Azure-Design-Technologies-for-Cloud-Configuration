@@ -324,5 +324,6 @@ I have created this repository for my self learning and reference for expert Clo
                 - Once you have implemented this, you can double check it by going to that particular VM resource and under networking you can see the rules
                 - You can now see in the VM resource || networking that a new rule has been created with a new priority and a default setting of `deny`
                 - If you want your computer IP to obtain access, you can then either go to the `VM resource || connect > request access`
+                - Alternatively you can go to `Security center || Azure defender > Just in time VM > request access`
 
 
