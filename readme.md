@@ -264,3 +264,4 @@ I have created this repository for my self learning and reference for expert Clo
     - Users assigned to an application
     - Azure AD role
     - Azure resource role
+- For reviews in the AD and resource roles, the reviews must be conducted with the privilidged identity 
