@@ -254,4 +254,8 @@ I have created this repository for my self learning and reference for expert Clo
                 - `Azure AD || users > search the user > click the user || assigned roles > Add assignment > select user administrator role`
                     - Select assignment type as eligible - It will have a start and end date - This date range is only when this particular user will be eligible to take up this role
                     - Next if you go inside this user's account by logging in you will see that this user will now be able to activate this elligibility
+                        - Home page after logging in, Azure active directory || all users - wont be able to add users yet
+                        - search `privilidged identity management || my roles > there you can see the eligibility to take up the user administrator role`
                     - The elligibility will be available only during the specified dates, during which the user can activate this additional privilidge and once the privilidge is activated there will only be a set number of hrs during which the user can perform the task. However, within the eligibility period. The user will be able to reactivate for this role multiple times
+- **Azure Reviews**
+- Review to access whether the latest user roles are appropriate for group memberships and role assignments
