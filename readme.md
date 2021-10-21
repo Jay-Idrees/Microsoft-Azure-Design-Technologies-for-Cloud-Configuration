@@ -292,4 +292,11 @@ I have created this repository for my self learning and reference for expert Clo
 - It will analyze the day to day logins of a particular user and then determine any risk to the user as well as the organization
     - For example the login is coming form an ip address that is not really known
     - It can categorize the risk as high medium or low
-    - Then you can also trgger an action for example block access, but trigger a password change
+    - Then you can also trigger an action for example block access, but trigger a password change
+    - Utilization of these features like user risk policy and sign in risk policy require Azure AD premium subscription
+
+- **Identity governance**
+    - Search for a`ccess review in general resources || access reviews > New access review`
+        - Here you can select teams and groups and select scope like all users etc
+        - Next in the `reviews` tab, then you can select reviewer, select the admin account and select the frequency with which to perform the review. Then likewise you can select the days and the start date
+
