@@ -271,3 +271,5 @@ I have created this repository for my self learning and reference for expert Clo
     - Group owners who perform an access review
     - Application owners who perform an acces review
 - P2 license is not required for uses with Global Administrator or User Administrator roles
+- Go to the `default directory, privilidged identity management || access reviews > new`
+    - There you can decide the date range and the frequency of reviews
