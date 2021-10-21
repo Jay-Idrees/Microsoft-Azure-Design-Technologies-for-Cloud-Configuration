@@ -319,5 +319,7 @@ I have created this repository for my self learning and reference for expert Clo
     - **Just in time VM access feature of Azure defender**
         - `Security Center || Azure defender > scrolling down you will be able to see just in time VM access`
             - You will be able to see the unprotected VMs
+            - Click the `just in time > under the not configure tab`
+                - Then select the VM and click `enable JIT` This will lead you to configure ports - you can delete the ports that you do not need them to be open
 
 
