@@ -309,6 +309,9 @@ I have created this repository for my self learning and reference for expert Clo
     - It provides an overall security  score
     - It scans the resources and gives you recommendations
     - Some recommendations are free, but for some more advanced recommendations you will have to pay
-         `Security center || overview || pricing` and settings will enable standard tier
+         - `Security center || overview || pricing` and settings will enable standard tier
+         - Navigating to this tier you can see whats available for free and whats available with costs e-g with standard tier
+         - E-g regulatory compliance dashboard and reports will not be available for free
+         - Continues assessment and security recommendations as well as Azure secure score are fee features
 
 
