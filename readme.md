@@ -264,4 +264,10 @@ I have created this repository for my self learning and reference for expert Clo
     - Users assigned to an application
     - Azure AD role
     - Azure resource role
-- For reviews in the AD and resource roles, the reviews must be conducted with the privilidged identity 
+- For reviews in the AD and resource roles, the reviews must be conducted with the privilidged identity management
+- Premium tasks
+    - Member and guest users who are assigned as reviewers
+    - Member and guest users who perform a self-review
+    - Group owners who perform an access review
+    - Application owners who perform an acces review
+- P2 license is not required for uses with Global Administrator or User Administrator roles
