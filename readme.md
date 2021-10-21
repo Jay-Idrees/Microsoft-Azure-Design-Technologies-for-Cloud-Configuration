@@ -259,3 +259,8 @@ I have created this repository for my self learning and reference for expert Clo
                     - The elligibility will be available only during the specified dates, during which the user can activate this additional privilidge and once the privilidge is activated there will only be a set number of hrs during which the user can perform the task. However, within the eligibility period. The user will be able to reactivate for this role multiple times
 - **Azure Reviews**
 - Review to access whether the latest user roles are appropriate for group memberships and role assignments
+- Reviews can be conducted for:
+    - Security group members
+    - Users assigned to an application
+    - Azure AD role
+    - Azure resource role
