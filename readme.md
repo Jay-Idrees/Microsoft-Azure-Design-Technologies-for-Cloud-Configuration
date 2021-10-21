@@ -275,3 +275,21 @@ I have created this repository for my self learning and reference for expert Clo
     - There you can decide the date range and the frequency of reviews
     - Then you can select the role for which you are performing a review e-g review of all the user accounts that have `user administrator` privilidges
     - you can also select `reviewers` these are the user accounts that can conduct reviews - If you are doign the review yourself then you can add your user account
+    - It will display a list of users for each of the user, you can click audit to see the logs
+    - Here you will have to opportuity to `approve or deny` which will continue or take away the privilidge, e-g in this case it is user Administrator
+    - Then if you go back on to `default directoy || access review > you will see an access review - click it to modify it`. 
+        - If you have dinied the user then you will first have to `stop` the access review and then click `apply`
+
+- **Discover Resources**
+- `Privilidged identy management || Azure resources`
+    - It will show the subscriptions e-g Test environment
+    - Going to the subscription homepage also gives you a summary of Identity management activities
+    - Here you will see various roles for example a basic reader role - this will let you modify it
+        - You will have to options of setting up activation, assignment and notification settings
+
+- **Azure AD identity protection**
+- It is to detect problems logins
+- It will analyze the day to day logins of a particular user and then determine any risk to the user as well as the organization
+    - For example the login is coming form an ip address that is not really known
+    - It can categorize the risk as high medium or low
+    - Then you can also trgger an action for example block access, but trigger a password change
