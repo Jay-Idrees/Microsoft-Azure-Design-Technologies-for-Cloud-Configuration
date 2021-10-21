@@ -304,7 +304,11 @@ I have created this repository for my self learning and reference for expert Clo
         - You can see information about a user like their last day of signin - there will be automatic recommendations and if you agree with them you can accept of deny the recommendations or approve or deny separately
 
 - **Azure Security Center**
+    - You can go to this resource 
     - Gives an overview of the security posture of the resources
     - It provides an overall security  score
+    - It scans the resources and gives you recommendations
+    - Some recommendations are free, but for some more advanced recommendations you will have to pay
+         `Security center || overview || pricing` and settings will enable standard tier
 
 
