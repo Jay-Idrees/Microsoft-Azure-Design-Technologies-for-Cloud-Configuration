@@ -313,5 +313,8 @@ I have created this repository for my self learning and reference for expert Clo
          - Navigating to this tier you can see whats available for free and whats available with costs e-g with standard tier
          - E-g regulatory compliance dashboard and reports will not be available for free
          - Continues assessment and security recommendations as well as Azure secure score are fee features
+         - If you scroll down further, you will see a list of all of your resources and you can select whether to enable a recommendation - This is based on `Azure policies`
+         - **Azure Defencer**
+         - `Security ceter || Azure defender` is another layer of security - It can be turned on under pricing and enabled for specific resources
 
 
