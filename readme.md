@@ -273,3 +273,5 @@ I have created this repository for my self learning and reference for expert Clo
 - P2 license is not required for uses with Global Administrator or User Administrator roles
 - Go to the `default directory, privilidged identity management || access reviews > new`
     - There you can decide the date range and the frequency of reviews
+    - Then you can select the role for which you are performing a review e-g review of all the user accounts that have `user administrator` privilidges
+    - you can also select `reviewers` these are the user accounts that can conduct reviews - If you are doign the review yourself then you can add your user account
