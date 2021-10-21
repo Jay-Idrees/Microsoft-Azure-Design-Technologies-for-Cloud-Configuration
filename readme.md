@@ -316,5 +316,8 @@ I have created this repository for my self learning and reference for expert Clo
          - If you scroll down further, you will see a list of all of your resources and you can select whether to enable a recommendation - This is based on `Azure policies`
          - **Azure Defencer**
          - `Security ceter || Azure defender` is another layer of security - It can be turned on under pricing and enabled for specific resources
+    - **Just in time VM access feature of Azure defender**
+        - `Security Center || Azure defender > scrolling down you will be able to see just in time VM access`
+            - You will be able to see the unprotected VMs
 
 
