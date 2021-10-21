@@ -297,6 +297,14 @@ I have created this repository for my self learning and reference for expert Clo
 
 - **Identity governance**
     - Search for a`ccess review in general resources || access reviews > New access review`
-        - Here you can select teams and groups and select scope like all users etc
-        - Next in the `reviews` tab, then you can select reviewer, select the admin account and select the frequency with which to perform the review. Then likewise you can select the days and the start date
+        - Here you can select teams and `groups` and select `scope` like all users etc
+        - Next in the `reviews` tab, then you can select reviewer, select the admin account and select the frequency with which to perform the review. Then likewise you can select the days and the start date - you can also specify frequency like weekly review, monthly review etc
+        - Asign it a name and then click create
+        - You will get an email notification when the reciew is complete - through which you can take actions like approve or deny an access
+        - You can see information about a user like their last day of signin - there will be automatic recommendations and if you agree with them you can accept of deny the recommendations or approve or deny separately
+
+- **Azure Security Center**
+    - Gives an overview of the security posture of the resources
+    - It provides an overall security  score
+
 
