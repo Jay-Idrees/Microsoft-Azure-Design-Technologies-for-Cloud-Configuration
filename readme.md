@@ -329,6 +329,6 @@ I have created this repository for my self learning and reference for expert Clo
                     - This will add another security rule permiting the specific ip address
 
 
-- Azure Identity protection - Detect suspiscious signins
-- Azure privilidged identity protection - Azure AD toles and Azure resources
-- Azure just-in-time VM access
+- `Azure Identity protection` - Detect suspiscious signins - more user specific
+- `Azure privilidged identity protection` - Azure AD roles and Azure resources - more about granting privilidged access to a user
+- `Azure Securty center` - lets you configure just-in-time VM access
