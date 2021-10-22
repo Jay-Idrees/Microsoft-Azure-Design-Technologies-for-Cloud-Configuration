@@ -325,5 +325,10 @@ I have created this repository for my self learning and reference for expert Clo
                 - You can now see in the VM resource || networking that a new rule has been created with a new priority and a default setting of `deny`
                 - If you want your computer IP to obtain access, you can then either go to the `VM resource || connect > request access`
                 - Alternatively you can go to `Security center || Azure defender > Just in time VM > request access`
+                    - Here you can then select `myip` or enter an ip range and click `open port`
+                    - This will add another security rule permiting the specific ip address
 
 
+- Azure Identity protection - Detect suspiscious signins
+- Azure privilidged identity protection - Azure AD toles and Azure resources
+- Azure just-in-time VM access
