@@ -332,3 +332,8 @@ I have created this repository for my self learning and reference for expert Clo
 - `Azure Identity protection` - Detect suspiscious signins - more user specific
 - `Azure privilidged identity protection` - Azure AD roles and Azure resources - more about granting privilidged access to a user
 - `Azure Securty center` - lets you configure just-in-time VM access
+
+- **Multi-factor authentication**
+    - You can enable multi-factor authentication per user
+    - `Azure active directry || all users > from top left drop-down select Multi-factor authentication`
+    - You will see a list of users and then you can select and then click `enable`
