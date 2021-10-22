@@ -337,3 +337,4 @@ I have created this repository for my self learning and reference for expert Clo
     - You can enable multi-factor authentication per user
     - `Azure active directry || all users > from top left drop-down select Multi-factor authentication`
     - You will see a list of users and then you can select and then click `enable`
+    - Then the user when he/she logs on will be prompted to fill in infomation regarding with to use for authentication such as a phone or an app
