@@ -354,3 +354,5 @@ I have created this repository for my self learning and reference for expert Clo
         - `Read only lock` - Can neither update nor delete
     - Go to the `resource || locks > add` there you can also see the options for resource group and subscription
         - For example if you apply this option to a virtual machine resource, you will have the lock-type property where you can specify the type of lock you are looking to apply. For example if you chose the read only lock, you will not be able to increase the size of a VM
+        - Even the global admin cannot override the lock
+        - If you apply the lock at a resource group level, then the lock is inherited by all the resources within the rerource group
