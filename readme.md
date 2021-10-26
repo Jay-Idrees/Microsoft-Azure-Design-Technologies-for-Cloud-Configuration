@@ -350,3 +350,7 @@ I have created this repository for my self learning and reference for expert Clo
 - **Azure Resource Locks**
     - This feature is designed to prevent accidental modification and deletion of critial resources
     - Locks can be applied at the resource level, subscripion level or resource group level
+        -`Cannot delete lock` - Can update but not delete
+        - `Read only lock` - Can neither update nor delete
+    - Go to the `resource || locks > add` there you can also see the options for resource group and subscription
+        - For example if you apply this option to a virtual machine resource, you will have the lock-type property where you can specify the type of lock you are looking to apply. For example if you chose the read only lock, you will not be able to increase the size of a VM
