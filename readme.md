@@ -340,4 +340,8 @@ I have created this repository for my self learning and reference for expert Clo
     - Then the user when he/she logs on will be prompted to fill in infomation regarding which option to use for authentication such as a phone or an app
 
 - **Conditional access policies** requires Azure AD premium license
-    - `Default directory from dashboard || security || conditional access`
+    - `Default directory from dashboard || security || conditional access > new policy`
+        - you can select the users or usergroups to which the policy should be applied
+        - Next you can select the apps to which you want to policy to be applied to - for the azure portal its `microsoft azure management`
+        - Under `access control > grant` There you can select whether you want to require multi-factor authentication for this group
+        - You also have the option of at least one or all of the controls to be satisfied
