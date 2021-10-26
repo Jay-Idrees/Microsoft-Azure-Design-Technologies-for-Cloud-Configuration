@@ -345,3 +345,4 @@ I have created this repository for my self learning and reference for expert Clo
         - Next you can select the apps to which you want to policy to be applied to - for the azure portal its `microsoft azure management`
         - Under `access control > grant` There you can select whether you want to require multi-factor authentication for this group
         - You also have the option of at least one or all of the controls to be satisfied
+        - Then `enable policy > on`
