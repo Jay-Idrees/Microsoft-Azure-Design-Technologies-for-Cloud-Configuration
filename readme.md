@@ -349,3 +349,4 @@ I have created this repository for my self learning and reference for expert Clo
 
 - **Azure Resource Locks**
     - This feature is designed to prevent accidental modification and deletion of critial resources
+    - Locks can be applied at the resource level, subscripion level or resource group level
