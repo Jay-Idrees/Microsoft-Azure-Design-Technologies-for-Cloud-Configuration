@@ -346,3 +346,6 @@ I have created this repository for my self learning and reference for expert Clo
         - Under `access control > grant` There you can select whether you want to require multi-factor authentication for this group
         - You also have the option of at least one or all of the controls to be satisfied
         - Then `enable policy > on`
+
+- **Azure Resource Locks**
+    - This feature is designed to prevent accidental modification and deletion of critial resources
