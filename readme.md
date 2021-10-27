@@ -374,3 +374,6 @@ I have created this repository for my self learning and reference for expert Clo
                     - Role-based access control
     - These are the default architecture settings of a company to govern the deployment of resources
     - These are usually helpful for organizations with multiple management groups with multiple subscriptions
+    - You create a blue print and then assign it to a subscription or a management group. If it is saved to a management group
+    - Steps: Defining, publishing and assigning
+    - Only a user with `contributor` level access can save a blue print
