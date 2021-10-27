@@ -394,7 +394,26 @@ I have created this repository for my self learning and reference for expert Clo
                     - Choose resource group - the name given here is the name for the artifact, not the resource. The resource group name is created dynamically - this will extract the resource name as a parameter from an existing resource or resource group to which this blue print will be assigned
                     - You can also assign static values for example a blue print maybe assigned only to a particular location
                     - You also have the option of assigining tag names
-                    - Likewise you can add another artifact as a policy, so that which this blue print is published, a particular policy is automatically assigned. For example a policy for automatic backup of VMs
+                    - Likewise you can add another `artifact as a policy`, so that which this blue print is published, a particular policy is automatically assigned. For example a policy for automatic backup of VMs
+                    - Likewise you can add another `artifact as resource manager` - Here you can add JSON code to configure infrastructre, such as creating a storage account
+                    - Likewise you can add another `artifact as role assignment` - Here you can select a particular user and give it an automatic role assignment such as `owner` whenever this blueprint is applied
+                    - Once congifuration is complete and the artifacts have been added to the blue print, click `save draft` After this step, the blue print will be created in an `unpublished` state - which means that it has yet to be assigned
+                    - You can go to `Blurprints || blueprint definitions` there you will see the list of blue prints that are created
+
+                - **Publising and assigining the blue print** - This step deploys the blue print to create resources
+                        - Select a blue print and right click ` publish blueprint`  specify the version  and click `publish`
+                        - After the blue print has been published in `blueprints || blueprint definitions` select the blue print from a list that you just `published > right click > select assign blueprint`
+                            - Here you will slect a `subscription`
+                            - Select lock assignment such as do not delete or readonly option for the resources created
+                            - Managed identity select `system assigned` this gives Azure temporary `owner` role in order to deploy all artifacts
+                            - You also have the option of creating your own user managed identity if you select `user assigned` instead
+                            - Next you will add in information about the resource group name - that you are now dynamically providing while deploying this artifact, you will also se the static assignement such as the location that you specified while creating the blue print
+                            - Likewise you can fill in all the options for the dynamic resources that are to be created as part of this blue print, like how many VMs should be created, how many storage accounts should be created etc
+                            - Finally click `Assign`
+                            - Note that with the assignment of the blue print to the subscription, it will run the blueprint and creat all architechture policies etc in that subscription
+                            - Then you can verify successful deployment by going to all resources and select your subscription
+                            - You can also see the new resource created by its name under all resources. If you go to this r`esource group || access control > role assignments` you can see the users and their level of role assignment e-g where its limited to this particular role or the management group
+                            - Likewise you can go to `policies` you will see a new policy that has been setup
 
     - **Applying resource locks to a blue print**
         - `Blueprints || blue print definitions` you will see the exisiting blueprints > right click and select `assign blueprint > choose perscription,blue print version, select **do not delete**`
