@@ -373,3 +373,4 @@ I have created this repository for my self learning and reference for expert Clo
                     - Resource groups
                     - Role-based access control
     - These are the default architecture settings of a company to govern the deployment of resources
+    - These are usually helpful for organizations with multiple management groups with multiple subscriptions
