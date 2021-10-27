@@ -359,10 +359,17 @@ I have created this repository for my self learning and reference for expert Clo
 
 - **Azure policies**
     - There are general policies for a coorporation to manage restriction on how the architects can deploy resources, e-g a general policy setting a limit on the size of VMs that can be deployed
-    - The will prevent from creating new resources that surpass the policy restrictions, but for the resources that are already created
+    - The will prevent from creating new resources that surpass the policy restrictions, but for the resources that are already created it will only mark and list them for you to take action
     - Search for `policy` in the general resources - This will lead to a policy dashboard that displays policy assignments
         - From the `policy dashboard > under categories > uncheck all and select compute` This will display all the policies in this categories that are available from Azure to be applied to resources
             - There if you select `allowed VM size SKUs` and then click `assign` - here you will have the option to select a subscription or a resource group
             - You also have the option to add exclusions
             - Here you can select the VM sizes that are allowed
     - Once the plolicy has been applied to a subscription, you will then be able to see the resources listed that are not compliant with that policy
+
+- **Azure Blueprints**
+    - Consists of : - ARM templates
+                    - Azure policies
+                    - Resource groups
+                    - Role-based access control
+    - These are the default architecture settings of a company to govern the deployment of resources
