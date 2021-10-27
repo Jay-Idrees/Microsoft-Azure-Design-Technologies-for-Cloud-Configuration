@@ -381,5 +381,6 @@ I have created this repository for my self learning and reference for expert Clo
     - There are some pre-existing samples in Azure that can be used when designing blue prints
     - Even if you are the `tenant-root group` - the Root level user of the Azure account, you still need role assignment before you can create blue prints
         - In other words you will have to assign `owner` role or `contributer` role to the root account - The point is that even if you are the King administerator, this assignment is not in place by default and will need to be configured before this account can be used to create blue prints
-    - You can also **unassign** a blue print by going to `Blueprints || Assigned blueprints > right clicking the blue print and selecting unassign`
+    - You can also **Unassign** a blue print by going to `Blueprints || Assigned blueprints > right clicking the blue print and selecting unassign`
+        - Note that unassigning a blue print does not undo the resources created when this particular blue print was published
     - **Creating a blue print**
