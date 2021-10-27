@@ -379,3 +379,5 @@ I have created this repository for my self learning and reference for expert Clo
     - Only a user with `contributor` level access can save a blue print
     - You can protect a blue print by applying resource locks
     - There are some pre-existing samples in Azure that can be used when designing blue prints
+    - Even if you are the `tenant-root group` - the Root level user of the Azure account, you still need role assignment before you can create blue prints
+        - In other words you will have to assign `owner` role or `contributer` role to the root account - The point is that even if you are the King administerator, this assignment is not in place by default and will need to be configured before this account can be used to create blue prints
