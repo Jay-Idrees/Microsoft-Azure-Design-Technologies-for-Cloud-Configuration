@@ -368,10 +368,10 @@ I have created this repository for my self learning and reference for expert Clo
     - Once the plolicy has been applied to a subscription, you will then be able to see the resources listed that are not compliant with that policy
 
 - **Azure Blueprints**
-    - Consists of : - ARM templates
-                    - Azure policies
-                    - Resource groups
-                    - Role-based access control
+    - Consists of `Artifacts` : - ARM templates - To create infrastructure
+                                - Azure policies - To govern creation of infrastructure
+                                - Resource groups
+                                - Role-based access control - Creating users, or automatically assigning roles to a given user
     - These are the default architecture settings of a company to govern the deployment of resources
     - These are usually helpful for organizations with multiple management groups with multiple subscriptions
     - You create a blue print and then assign it to a subscription or a management group. If it is saved to a management group
@@ -381,3 +381,5 @@ I have created this repository for my self learning and reference for expert Clo
     - There are some pre-existing samples in Azure that can be used when designing blue prints
     - Even if you are the `tenant-root group` - the Root level user of the Azure account, you still need role assignment before you can create blue prints
         - In other words you will have to assign `owner` role or `contributer` role to the root account - The point is that even if you are the King administerator, this assignment is not in place by default and will need to be configured before this account can be used to create blue prints
+    - You can also **unassign** a blue print by going to `Blueprints || Assigned blueprints > right clicking the blue print and selecting unassign`
+    - **Creating a blue print**
