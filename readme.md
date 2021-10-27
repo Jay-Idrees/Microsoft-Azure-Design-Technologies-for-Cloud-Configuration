@@ -384,3 +384,8 @@ I have created this repository for my self learning and reference for expert Clo
     - You can also **Unassign** a blue print by going to `Blueprints || Assigned blueprints > right clicking the blue print and selecting unassign`
         - Note that unassigning a blue print does not undo the resources created when this particular blue print was published
     - **Creating a blue print**
+
+    - **Applying resource locks to a blue print**
+        - `Blueprints || blue print definitions` you will see the exisiting blueprints > right click and select `assign blueprint > choose perscription,blue print version, select **do not delete**`
+        - This action will automatically apply the feature of `not being able to delete` to all the resources that are created as part of this blue print
+            - Even if you go to an individual resourse such as a storage account and go under `locks` you will not see anyindividualized locks, if this resource was created as part of Azure blue print which contained a policy artifact of not being able to delete any resources created when this blue print was published, the storage account will inherit this trait, and you not be able to delete it
