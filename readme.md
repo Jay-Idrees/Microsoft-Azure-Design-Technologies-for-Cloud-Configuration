@@ -386,7 +386,12 @@ I have created this repository for my self learning and reference for expert Clo
     - **Creating a blue print**
         - `Searh blueprint in general resources || blueprint definitions > create blueprint`
             - You can either start with a sample or you can click `start with black blueprint`
-                - Give it a name, select definition loaction (choose subscription or management group - even if you have no specific management groups, you will have a default tenant group)
+                - **Basic tab**
+                - Give it a name, select **definition loaction** (choose subscription or management group - even if you have no specific management groups, you will have a default tenant group, not that you must have at least `contributor` level access to be able to assign a subscription otherwise you will get an error)
+                    - You can assign contributor role by goiing to `tenant root group || Access control > assign owner role` Note that this step has to be implemented and is not always there by default - so be sure to check that before creating blue prints - you will have to wait for 5 min before the role gets assigned
+                - **Artifacts tab**
+                    - Click `add artifact` - then in the pop up you can select artifact type: `policy, role, resource group, resource manager`
+                    - Choose resource goup - the name given here is the name for the artifact, not the resource. The resource group name is created dynamically - this will extract the resource name as a parameter from an existing resource or resource group to which this blue print will be assigned
 
     - **Applying resource locks to a blue print**
         - `Blueprints || blue print definitions` you will see the exisiting blueprints > right click and select `assign blueprint > choose perscription,blue print version, select **do not delete**`
