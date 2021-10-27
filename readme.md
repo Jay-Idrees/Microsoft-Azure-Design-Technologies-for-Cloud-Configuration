@@ -391,7 +391,10 @@ I have created this repository for my self learning and reference for expert Clo
                     - You can assign contributor role by goiing to `tenant root group || Access control > assign owner role` Note that this step has to be implemented and is not always there by default - so be sure to check that before creating blue prints - you will have to wait for 5 min before the role gets assigned
                 - **Artifacts tab**
                     - Click `add artifact` - then in the pop up you can select artifact type: `policy, role, resource group, resource manager`
-                    - Choose resource goup - the name given here is the name for the artifact, not the resource. The resource group name is created dynamically - this will extract the resource name as a parameter from an existing resource or resource group to which this blue print will be assigned
+                    - Choose resource group - the name given here is the name for the artifact, not the resource. The resource group name is created dynamically - this will extract the resource name as a parameter from an existing resource or resource group to which this blue print will be assigned
+                    - You can also assign static values for example a blue print maybe assigned only to a particular location
+                    - You also have the option of assigining tag names
+                    - Likewise you can add another artifact as a policy, so that which this blue print is published, a particular policy is automatically assigned. For example a policy for automatic backup of VMs
 
     - **Applying resource locks to a blue print**
         - `Blueprints || blue print definitions` you will see the exisiting blueprints > right click and select `assign blueprint > choose perscription,blue print version, select **do not delete**`
