@@ -358,4 +358,6 @@ I have created this repository for my self learning and reference for expert Clo
         - If you apply the lock at a resource group level, then the lock is inherited by all the resources within the rerource group
 
 - **Azure policies**
-    - There are general policies for a coorporation to manage restriction on how the architects can deploy resources, e-g a general policies setting a limit on size of VMs that can be deployed
+    - There are general policies for a coorporation to manage restriction on how the architects can deploy resources, e-g a general policy setting a limit on the size of VMs that can be deployed
+    - The will prevent from creating new resources that surpass the policy restrictions, but for the resources that are already created
+    - Search for `policy` in the general resources - This will lead to a policy dashboard that displays policy assignments
