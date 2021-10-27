@@ -363,3 +363,6 @@ I have created this repository for my self learning and reference for expert Clo
     - Search for `policy` in the general resources - This will lead to a policy dashboard that displays policy assignments
         - From the `policy dashboard > under categories > uncheck all and select compute` This will display all the policies in this categories that are available from Azure to be applied to resources
             - There if you select `allowed VM size SKUs` and then click `assign` - here you will have the option to select a subscription or a resource group
+            - You also have the option to add exclusions
+            - Here you can select the VM sizes that are allowed
+    - Once the plolicy has been applied to a subscription, you will then be able to see the resources listed that are not compliant with that policy
