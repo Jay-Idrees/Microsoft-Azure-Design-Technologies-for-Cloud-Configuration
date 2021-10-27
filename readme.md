@@ -384,6 +384,7 @@ I have created this repository for my self learning and reference for expert Clo
     - You can also **Unassign** a blue print by going to `Blueprints || Assigned blueprints > right clicking the blue print and selecting unassign`
         - Note that unassigning a blue print does not undo the resources created when this particular blue print was published
     - **Creating a blue print**
+        - `Searh blueprint in general resources || blueprint definitions > create blueprint
 
     - **Applying resource locks to a blue print**
         - `Blueprints || blue print definitions` you will see the exisiting blueprints > right click and select `assign blueprint > choose perscription,blue print version, select **do not delete**`
