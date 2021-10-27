@@ -361,3 +361,5 @@ I have created this repository for my self learning and reference for expert Clo
     - There are general policies for a coorporation to manage restriction on how the architects can deploy resources, e-g a general policy setting a limit on the size of VMs that can be deployed
     - The will prevent from creating new resources that surpass the policy restrictions, but for the resources that are already created
     - Search for `policy` in the general resources - This will lead to a policy dashboard that displays policy assignments
+        - From the `policy dashboard > under categories > uncheck all and select compute` This will display all the policies in this categories that are available from Azure to be applied to resources
+            - There if you select `allowed VM size SKUs` and then click `assign` - here you will have the option to select a subscription or a resource group
