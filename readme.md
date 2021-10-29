@@ -427,5 +427,5 @@ I have created this repository for my self learning and reference for expert Clo
         - `Azure active directory or default directory || app registerations > application object`
             - On this homepage you obtain the client ID, object ID and Tenant ID - these are specify markers of access that can be implanted onto the app object to match before connecting to the app object
             - In addition you can also create a client secret that you can store vault
-            - you can create a secret by going to the `app resource || certificates and secrets`. You can copy the value of the secret and paste it into the app
+            - You can create a secret by going to the `app resource || certificates and secrets`. You can copy the value of the secret and paste it into the app
             - If the app is trying to access an existing storage account, you will have to paste the URl of the storage account into the app
