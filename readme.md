@@ -421,7 +421,7 @@ I have created this repository for my self learning and reference for expert Clo
             - Even if you go to an individual resourse such as a storage account and go under `locks` you will not see anyindividualized locks, if this resource was created as part of Azure blue print which contained a policy artifact of not being able to delete any resources created when this blue print was published, the storage account will inherit this trait, and you not be able to delete it - even if you are the owner
                 - If you want to delete it you will have to got to `Blueprints || assigned blurprints`and then `unassign` it from the subscription
 
-    - **Application objects**
+    - **Application Objects**
         - For example application wanting to access to a storage account
         - It is like giving an application its own automatic user to access the storage account. The application object is the user for the application
         - `Azure active directory or default directory || app registerations > application object`
