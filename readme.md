@@ -415,7 +415,7 @@ I have created this repository for my self learning and reference for expert Clo
                             - You can also see the new resource created by its name under all resources. If you go to this r`esource group || access control > role assignments` you can see the users and their level of role assignment e-g where its limited to this particular role or the management group
                             - Likewise you can go to `policies` you will see a new policy that has been setup
 
-    - **Applying resource locks to a blue print**
+    - **Applying Resource locks to a blue print**
         - `Blueprints || blue print definitions` you will see the exisiting blueprints > right click and select `assign blueprint > choose perscription,blue print version, select **do not delete**`
         - This action will automatically apply the feature of `not being able to delete` to all the resources that are created as part of this blue print
             - Even if you go to an individual resourse such as a storage account and go under `locks` you will not see anyindividualized locks, if this resource was created as part of Azure blue print which contained a policy artifact of not being able to delete any resources created when this blue print was published, the storage account will inherit this trait, and you not be able to delete it - even if you are the owner
