@@ -440,3 +440,4 @@ I have created this repository for my self learning and reference for expert Clo
         - To create a secret you go to `key vault resource || secrets > generate`
         - From the key vault you can get the vault URI which you will have to link with the app
         - The connection link between the app and the Azure key vault is the secret and the connection between the Azure and App is a policy inside the vault that recognizes the application
+            -`key vaule resource || access policies > create a new policy`
