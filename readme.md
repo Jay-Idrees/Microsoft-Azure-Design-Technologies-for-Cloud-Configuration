@@ -472,3 +472,5 @@ I have created this repository for my self learning and reference for expert Clo
             -Enforce security policies
             -Validate user permissions
         - Azure active directory and microsoft active directory are two different things
+        - Microsoft active directory is what is installed onto a local on premisis server
+        - **Azure AD connect** is then used to link the microsoft active directory with Azure AD connect
