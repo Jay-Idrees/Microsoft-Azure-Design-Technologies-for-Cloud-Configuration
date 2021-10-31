@@ -449,3 +449,7 @@ I have created this repository for my self learning and reference for expert Clo
         - Here you do not have to embed any details like client id, tenant id or secret into the application
         - You have to first enable the managed identity on a particular azure resource like a VM for example
             - Go to the `resource || identity > Turn status on > save` - This step registers the resource with Azure active directory
+        - Next you can go to the `storage account resource || access control >add`
+            - This will open up add role assignment window
+                - choose the role, e-g reader
+                - under select select the rsource whose 'manage identity' you have created, VM in this case for example
