@@ -459,4 +459,9 @@ I have created this repository for my self learning and reference for expert Clo
     - **Disk encyption for Azure VMs using Key vault**
         - When a VM is created there is already a default level of encryption on the disk called `SSE- server side encryption`
         - You can create another layer of encryption using Azure key vault (called `ADE- Azure disk encryption`) - the process involves creating a new encryption key in the vault and then applying it onto the disk in the VM. You can specify whether you are doing it for the operating disk
-            - Go to Vm resource || disks > additional settings
+            - Go to `Vm resource || disks > additional settings`
+                - You can select between OS disks or both
+                - Slect the key vault from a list
+                - Then create a new key
+                - Then select the new key
+                - **Note that the key vault and the VM resource must be in the same region**
