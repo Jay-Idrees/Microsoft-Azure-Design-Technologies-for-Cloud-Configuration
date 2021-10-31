@@ -457,3 +457,5 @@ I have created this repository for my self learning and reference for expert Clo
             - Likewise you can repeat the same steps and let VM gain access to the blob by selecting the `data reader role`
         
     - **Disk encyption for Azure VMs using Key vault**
+        - When a VM is created there is already a default level of encryption on the disk called `SSE- server side encryption`
+        - You can create another layer of encryption using Azure key vault - the process involves creating a new encryption key in the vault and then applying it onto the disk in the VM. You can specify whether you are doing it for the operating disk
