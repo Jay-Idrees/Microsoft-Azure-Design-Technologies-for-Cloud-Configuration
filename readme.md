@@ -474,3 +474,4 @@ I have created this repository for my self learning and reference for expert Clo
         - Azure active directory and microsoft active directory are two different things
         - Microsoft active directory is what is installed onto a local on premisis server
         - **Azure AD connect** is then used to link the microsoft active directory with Azure AD connect
+        - Some applications may only run with microsoft active directory and not azure active directory
