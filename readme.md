@@ -448,8 +448,12 @@ I have created this repository for my self learning and reference for expert Clo
         - To the identity you grant role based access control
         - Here you do not have to embed any details like client id, tenant id or secret into the application
         - You have to first enable the managed identity on a particular azure resource like a VM for example
+        - Pre-requsits: Create a VM resource and a storage account resource. Inside th storage account create a container and in the container upload a text file
             - Go to the `resource || identity > Turn status on > save` - This step registers the resource with Azure active directory
         - Next you can go to the `storage account resource || access control >add`
             - This will open up add role assignment window
-                - choose the role, e-g reader
-                - under select select the rsource whose 'manage identity' you have created, VM in this case for example
+                - choose the role, e-g `reader`
+                - under select select the rsource whose 'manage identity' you have created, VM in this case for example. If you have already created a managed identity for the VM then that VM will show up here automatically
+            - Likewise you can repeat the same steps and let VM gain access to the blob by selecting the `data reader role`
+        
+    - **Disk encyption for Azure VMs using Key vault**
