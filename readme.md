@@ -429,3 +429,4 @@ I have created this repository for my self learning and reference for expert Clo
             - In addition you can also create a client secret that you can store vault
             - You can create a secret by going to the `app resource || certificates and secrets`. You can copy the value of the secret and paste it into the app
             - If the app is trying to access an existing storage account, you will have to paste the URl of the storage account into the app
+            - You can further configure authentication by going to `app resource || authentication`
