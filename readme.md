@@ -465,3 +465,10 @@ I have created this repository for my self learning and reference for expert Clo
                 - Then create a new key
                 - Then select the new key
                 - **Note that the key vault and the VM resource must be in the same region**
+    
+    - **Microsoft active directory**
+        - You assign all devices to a domain and then link that domain to active directory
+            -Authenticate/authorize users
+            -Enforce security policies
+            -Validate user permissions
+        - Azure active directory and microsoft active directory are two different things
