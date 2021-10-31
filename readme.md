@@ -446,3 +446,4 @@ I have created this repository for my self learning and reference for expert Clo
         - This is an alternative to application object
         - Here you give an identity to an Azure resource (for example a VM) as if it were a user that can directly access the storage account
         - To the identity you grant role based access control
+        - Here you do not have to embed any details like client id, tenant id or secret into the application
