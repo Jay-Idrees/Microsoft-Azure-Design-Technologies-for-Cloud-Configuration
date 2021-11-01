@@ -492,9 +492,17 @@ I have created this repository for my self learning and reference for expert Clo
     - Managed instance with CosmosDB - comprises of SQL api, table api, cassandra api, mongo api and gremlin api
     - Azure Cache for Redis - In memory datastorage
 - **Authorization options**
-    - Azure active directory - most secure
-    - Access keys - easiest, but less secure - These are unique to a storage account - downside: they grant access to the entire storage account not just a particular service. You can access the keys at `storage account || access keys` - You can manage the storage accounts using **Azure storage explorer**. The keys link the storage explorer on your computer to the storage account to Azure
-    - Creating shared access signatures - authorizing service, time bound access
+    - `Azure active directory` - most secure
+        - This is available for blob service (storing objects)
+        - `Storage account || container` to see if you have blob data in place
+        - Create a user in Azure active directory `Azure active dirctory > all users`
+    - `Access keys `- easiest, but less secure - These are unique to a storage account - downside: they grant access to the entire storage account not just a particular service. You can access the keys at `storage account || access keys` - You can manage the storage accounts using **Azure storage explorer**. The keys link the storage explorer on your computer to the storage account to Azure. You can regenerate the keys is you suspect that an unauthorized access has been obtained
+    - Creating shared `access signatures` - authorizing service, time bound access
+        - Go to `storage account || shared access signature`
+            - You have the option of setting the start and end time validity of signature - For example you can create a shared access signature to an external audit company
+            - You can also define the allowed IP ranges
+            - This generates a connection string
+            - When you are linking to the Azure storage explorer, you can select Shared access signature instead of the keys
 
 
 
