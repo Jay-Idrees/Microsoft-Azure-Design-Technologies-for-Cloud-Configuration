@@ -493,7 +493,7 @@ I have created this repository for my self learning and reference for expert Clo
     - Azure Cache for Redis - In memory datastorage
 - **Authorization options**
     - Azure active directory - most secure
-    - Access keys - easiest, but less secure - These are unique to a storage account - downside: they grant access to the entire storage account not just a particular service. You can access the keys at `storage account || access keys` - You can manage the storage accounts using **Azure storage explorer**
+    - Access keys - easiest, but less secure - These are unique to a storage account - downside: they grant access to the entire storage account not just a particular service. You can access the keys at `storage account || access keys` - You can manage the storage accounts using **Azure storage explorer**. The keys link the storage explorer on your computer to the storage account to Azure
     - Creating shared access signatures - authorizing service, time bound access
 
 
