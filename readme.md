@@ -489,6 +489,8 @@ I have created this repository for my self learning and reference for expert Clo
     - Azure SQL database - platform as service
     - Azure SQL database Elastic pool - resources are shared across multiple SQL databases
     - Azure SQL managed instance - SQL database gets deployed onto a virtual network - Most secure, the communication between the database and the app does not happen over the public internet
+    - Managed instance with CosmosDB - comprises of SQL api, table api, cassandra api, mongo api and gremlin api
+    - Azure Cache for Redis - In memory datastorage
 
 
 
