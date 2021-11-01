@@ -496,6 +496,9 @@ I have created this repository for my self learning and reference for expert Clo
         - This is available for blob service (storing objects)
         - `Storage account || container` to see if you have blob data in place
         - Create a user in Azure active directory `Azure active dirctory > all users`
+        - Then go to `storage account || access control > add` to assign a role and select the user you just created
+            - Example roles to choose from: reader, storage blob data reader
+        - Once you create a user in Azure AD, you will be able to directly log into Azure from the storage explorer
     - `Access keys `- easiest, but less secure - These are unique to a storage account - downside: they grant access to the entire storage account not just a particular service. You can access the keys at `storage account || access keys` - You can manage the storage accounts using **Azure storage explorer**. The keys link the storage explorer on your computer to the storage account to Azure. You can regenerate the keys is you suspect that an unauthorized access has been obtained
     - Creating shared `access signatures` - authorizing service, time bound access
         - Go to `storage account || shared access signature`
@@ -503,6 +506,12 @@ I have created this repository for my self learning and reference for expert Clo
             - You can also define the allowed IP ranges
             - This generates a connection string
             - When you are linking to the Azure storage explorer, you can select Shared access signature instead of the keys
+
+- **Storage account access tiers**
+    - Hot (frequent, default), Cool and Archive
+    - Size based pricing: First 50TB is expensive then then next 450 and over 500 TB
+    - You can select these settings: `storage account || configuration`
+    - You can also change the tier for a particular data object e-g `storage account resource > images container > change tier`
 
 
 
