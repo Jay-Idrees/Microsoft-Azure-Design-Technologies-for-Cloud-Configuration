@@ -491,6 +491,10 @@ I have created this repository for my self learning and reference for expert Clo
     - Azure SQL managed instance - SQL database gets deployed onto a virtual network - Most secure, the communication between the database and the app does not happen over the public internet
     - Managed instance with CosmosDB - comprises of SQL api, table api, cassandra api, mongo api and gremlin api
     - Azure Cache for Redis - In memory datastorage
+- **Authorization options**
+    - Azure active directory - most secure
+    - Access keys - easiest, but less secure - These are unique to a storage account - downside: they grant access to the entire storage account not just a particular service
+    - Creating shared access signatures - authorizing service, time bound access
 
 
 
