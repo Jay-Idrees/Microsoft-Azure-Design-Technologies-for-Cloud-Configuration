@@ -476,3 +476,21 @@ I have created this repository for my self learning and reference for expert Clo
         - **Azure AD connect** is then used to link the microsoft active directory with Azure AD connect
         - Some applications (legacy applications) may only run with microsoft active directory and not azure active directory
         - This connection allows users to make use of local microsoft active directory features as well as use the applications on Azure using the same user credentials
+        - **Azure active directory domain services**
+            - Search for Azure Domain service and create this resource
+            - It creates a V net and VMs inside the Vnet - Takes about 45 minutes to complete
+            - This will create a domain. You create the VM and then install microsoft active directory on it and then connect it to the domain
+
+## Designing Data storage
+
+- Types of data stores:
+    - Storage accounts: 
+    - SQL database: Install Oracle Microsoft SQL server, MYSQL database
+    - Azure SQL database - platform as service
+    - Azure SQL database Elastic pool - resources are shared across multiple SQL databases
+    - Azure SQL managed instance - SQL database gets deployed onto a virtual network - Most secure, the communication between the database and the app does not happen over the public internet
+
+
+
+
+
