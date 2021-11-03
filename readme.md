@@ -547,8 +547,9 @@ I have created this repository for my self learning and reference for expert Clo
             - You can scale up to 100TB storage
     - **Deploying an SQL server on Azure VM**
         - Search SQL server in main resources
-            - Under publisher, choose `Microsoft`
-            - You can select SQL server 2019 on Windows server 2019 ( the latest version)
+            - Under `publisher`, choose `Microsoft`
+            - You can select `SQL server 2019 on Windows server 2019` ( the latest version) - This will automatically create the VM and install SQL server init
+            - Select the standard version from the drop down
 
 
 
