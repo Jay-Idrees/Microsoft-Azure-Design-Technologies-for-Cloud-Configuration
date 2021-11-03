@@ -525,6 +525,11 @@ I have created this repository for my self learning and reference for expert Clo
     - Then when you are at `storage account || enctyption > customer-managed, select from key vault, select a key from vault and key`
         - This allows you to select the key vault and from the keys in it
 
+- **Setting up access policies**
+    - This can be applied at the container level
+    - `container || policies` you can specify policies like read
+    - When you create an access signature for access through the storage explorer, you can tie this policy to the signature. The storage explorer is bound by the policies tied to the access signature when you register a storage account using its URI
+    - If you go back and change the policy linked to the storage container, that way you can also remove access, for example if you remove read privilidges
 
 
 
