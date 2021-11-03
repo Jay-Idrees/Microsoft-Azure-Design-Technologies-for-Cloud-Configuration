@@ -532,7 +532,7 @@ I have created this repository for my self learning and reference for expert Clo
     - If you go back and change the policy linked to the storage container, that way you can also remove access, for example if you remove read privilidges
     - ANother option is **imutable blob storage**
         - `container in storage account || access policy > add policy under immutable blob storage`
-        - Here you can select from further 2 types : 1) Time based retention -No one can change anything in the container for 1 day
+        - Here you can select from further 2 types : 1) Time based retention -No one can change anything in the container for specified number of days
 
 
 
