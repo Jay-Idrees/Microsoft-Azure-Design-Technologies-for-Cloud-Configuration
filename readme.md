@@ -536,8 +536,9 @@ I have created this repository for my self learning and reference for expert Clo
                                                    - 2) Legal hold
 
 - **Azure SQL deployment**
-    - Deploying SQL server onto a VM - This is the `infrastructure as service` option
-    - The second optin is deployoing SQL server as `platform as service`
+    - Deploying SQL server onto a VM - This is the `infrastructure as service` option, benifit is pay as you go subscription option
+    - The second option is deploying SQL server as `platform as service` Here you do not really configure any VMs - this is automatically taken care of by Azure - Benifits, automated backup, patching etc
+    - The third option is `Azure SQL Manged instance` - useful if you are migrating
 
 
 
