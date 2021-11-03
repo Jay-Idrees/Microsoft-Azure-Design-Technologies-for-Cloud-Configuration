@@ -541,6 +541,9 @@ I have created this repository for my self learning and reference for expert Clo
     - The third option is `Azure SQL Manged instance` - useful if you are migrating, native Vnet integration
     - **Costing**
         - Based on DTUs - database transaction units- Basic, standard, premium (2ms vs 5ms latency, 25 vs 4 input output operations)
+        - cost saving options: 
+            - Using hybrid benifit using existing licenses
+            - serverless - Auto-pause when not in use, scaling based on demand
 
 
 
