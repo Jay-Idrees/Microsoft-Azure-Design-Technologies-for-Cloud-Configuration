@@ -530,6 +530,9 @@ I have created this repository for my self learning and reference for expert Clo
     - `container || policies` you can specify policies like read
     - When you create an access signature for access through the storage explorer, you can tie this policy to the signature. The storage explorer is bound by the policies tied to the access signature when you register a storage account using its URI
     - If you go back and change the policy linked to the storage container, that way you can also remove access, for example if you remove read privilidges
+    - ANother option is **imutable blob storage**
+        - `container in storage account || access policy > add policy under immutable blob storage`
+        - Here you can select from further 2 types : 1) Time based retention - remove access after specified time
 
 
 
