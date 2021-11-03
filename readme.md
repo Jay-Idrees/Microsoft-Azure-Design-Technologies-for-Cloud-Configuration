@@ -544,6 +544,11 @@ I have created this repository for my self learning and reference for expert Clo
         - cost saving options: 
             - Using hybrid benifit using existing licenses
             - serverless - Auto-pause when not in use, scaling based on demand
+            - You can scale up to 100TB storage
+    - **Deploying an SQL server on Azure VM**
+        - Search SQL server in main resources
+            - Under publisher, choose `Microsoft`
+            - You can select SQL server 2019 on Windows server 2019 ( the latest version)
 
 
 
