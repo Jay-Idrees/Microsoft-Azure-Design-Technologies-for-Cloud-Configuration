@@ -519,6 +519,7 @@ I have created this repository for my self learning and reference for expert Clo
 - **Storage encryption**
     - `Storage account resource || encryption`
         - default option `microsoft-managed keys` alternative `customer-managed keys`
+        - This default encryption is applied to data when not in use, when the data is in use by the app then it is decrypted
 
 
 
