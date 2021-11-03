@@ -520,6 +520,11 @@ I have created this repository for my self learning and reference for expert Clo
     - `Storage account resource || encryption`
         - default option `microsoft-managed keys` alternative `customer-managed keys`
         - This default encryption is applied to data when not in use, when the data is in use by the app then it is decrypted
+    - For custom control first **Create a key vault** - must be in the same location
+        - `key vault || keys > generate`
+    - Then when you are at `storage account || enctyption > customer-managed, select from key vault`
+        - This allows you to select the key vault and from the keys in it
+
 
 
 
