@@ -508,11 +508,17 @@ I have created this repository for my self learning and reference for expert Clo
             - When you are linking to the Azure storage explorer, you can select Shared access signature instead of the keys
 
 - **Storage Account access tiers**
-    - Hot (frequent, default), Cool and Archive - configured by implementing lifecycle rules
+    - Hot (frequent, default), Cool (atleast 30d storage) and Archive(atleast 180 storage) - configured by implementing lifecycle rules
         - `storage account || lifecycle management > add rule`
+        - Rehydration: Accessing archived data (Archive -> hot or cool) - process takes time
     - Size based pricing: First 50TB is expensive then then next 450 and over 500 TB
+    - Storage costs: size + read/write operations. Reading costs are very high for reading data in archived form + early deletion fee
     - You can select these settings: `storage account || configuration`
     - You can also change the tier for a particular data object e-g `storage account resource > images container > change tier`
+
+- **Storage encryption**
+    - `Storage account resource || encryption`
+        - default option `microsoft-managed keys` alternative `customer-managed keys`
 
 
 
