@@ -533,6 +533,11 @@ I have created this repository for my self learning and reference for expert Clo
     - ANother option is **imutable blob storage**
         - `container in storage account || access policy > add policy under immutable blob storage`
         - Here you can select from further 2 types : 1) Time based retention -No one can change anything in the container for specified number of days
+                                                   - 2) Legal hold
+
+- **Azure SQL deployment**
+    - Deploying SQL server onto a VM - This is the `infrastructure as service` option
+    - The second optin is deployoing SQL server as `platform as service`
 
 
 
