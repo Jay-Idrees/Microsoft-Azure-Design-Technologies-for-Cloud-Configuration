@@ -555,6 +555,9 @@ I have created this repository for my self learning and reference for expert Clo
                 - Connectivity - private (within Vnet), open port 1433.
                 - Enable SQL authentication
                 - Then you can configure storage for the SQL server and select whether you aready have an SQL server license
+    - **SQL database auditing**
+        - Tracking database logs and rights
+        - You can eneble it at the server or database level
 
 
 
