@@ -550,6 +550,11 @@ I have created this repository for my self learning and reference for expert Clo
             - Under `publisher`, choose `Microsoft`
             - You can select `SQL server 2019 on Windows server 2019` ( the latest version) - This will automatically create the VM and install SQL server init
             - Select the standard version from the drop down
+            - Configure for VM and Vnet as usual, it will assign a public IP address
+            - **SQL server settings tab** - the server that will be installed
+                - Connectivity - private (within Vnet), open port 1433.
+                - Enable SQL authentication
+                - Then you can configure storage for the SQL server and select whether you aready have an SQL server license
 
 
 
