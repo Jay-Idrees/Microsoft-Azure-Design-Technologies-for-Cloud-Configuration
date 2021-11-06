@@ -558,6 +558,13 @@ I have created this repository for my self learning and reference for expert Clo
     - **SQL database auditing**
         - Tracking database logs and rights
         - You can eneble it at the server or database level
+        - Required for regulatory compliance
+        - `database rsource || auditing > auditing on` Here you also have the option of doing so at server level
+        - You can direct the logs to a storage account
+        - You can also view the logs - the command query for SQL, user, IP
+            - `databse resource || auditing > view audit logs at the top`
+        - The storage account must be in the same region as the SQL server
+        
 
 
 
