@@ -568,11 +568,16 @@ I have created this repository for my self learning and reference for expert Clo
     - **SQL diagnostics**
         - `database resource || diagnostic settings > add diagnostic settings`
             - gives you option to archive data to a storage account, send data to log analytics, select data to be sent
-            - You can also specify the retention period for data of logs -Note that this retention setting does not affect the logs in the workspace. For changing policies in the retention in workspace, you have to go to the database resource
+            - You can also specify the retention period for data of logs -Note that this retention setting does not affect the logs in the workspace. For changing policies in the retention in workspace, you have to go to the database workspace resource
         - For looking at usage and the estimated costs you can go to:
             - `database workspace resource || usage and estimated costs > data retention`
             - By default data retention is for 30 days - can be increased
-        
+    
+    - **Data masking**
+        - Credit card masking rule and email masking rule in Azure
+        - `SQL database from resources || dynamic data masking under security`
+            - This setting will automatically detect the variables from a database that can be masked and offers recommendations
+            - You can also do this manually by clicking `add mask`, select the table, column
 
 
 
