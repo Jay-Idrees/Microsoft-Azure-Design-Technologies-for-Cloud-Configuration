@@ -564,6 +564,9 @@ I have created this repository for my self learning and reference for expert Clo
         - You can also view the logs - the command query for SQL, user, IP
             - `databse resource || auditing > view audit logs at the top`
         - The storage account must be in the same region as the SQL server
+    
+    - **SQL diagnostics**
+        - `database resource || diagnostic settings > add diagnostic settings`
         
 
 
