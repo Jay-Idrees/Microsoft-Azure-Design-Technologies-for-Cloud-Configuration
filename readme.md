@@ -578,6 +578,7 @@ I have created this repository for my self learning and reference for expert Clo
         - `SQL database from resources || dynamic data masking under security`
             - This setting will automatically detect the variables from a database that can be masked and offers recommendations
             - You can also do this manually by clicking `add mask`, select the table, column - then you can click add and save
+            - Masking only works when a non-privilidged user makes a query in the database
 
 
 
