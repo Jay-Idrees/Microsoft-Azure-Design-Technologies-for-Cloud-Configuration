@@ -579,6 +579,8 @@ I have created this repository for my self learning and reference for expert Clo
             - This setting will automatically detect the variables from a database that can be masked and offers recommendations
             - You can also do this manually by clicking `add mask`, select the table, column - then you can click add and save
             - Masking only works when a non-privilidged user makes a query in the database
+        - Note that for giving access to SQL database, you will have to first create a new user and then you will grant access to that newly created user
+            - This can be done from the Microsoft SQL server management studio 
 
 
 
