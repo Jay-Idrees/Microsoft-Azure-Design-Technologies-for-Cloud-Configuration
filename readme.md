@@ -580,7 +580,15 @@ I have created this repository for my self learning and reference for expert Clo
             - You can also do this manually by clicking `add mask`, select the table, column - then you can click add and save
             - Masking only works when a non-privilidged user makes a query in the database
         - Note that for giving access to SQL database, you will have to first create a new user and then you will grant access to that newly created user
-            - This can be done from the Microsoft SQL server management studio 
+            - This can be done from the **Microsoft SQL server management studio**
+    
+    - **Transparent data encryption**
+        - By default it is already enabled for a SQL database
+            - `database resource || transparent data encryption under security`
+            - Only encrypts data at rest
+    - **Always encrypted feature**
+            - You can also select specific tables that can be encrypted
+            - Also encrypts data in transit
 
 
 
