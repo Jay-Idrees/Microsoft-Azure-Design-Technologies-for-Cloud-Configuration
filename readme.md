@@ -568,9 +568,10 @@ I have created this repository for my self learning and reference for expert Clo
     - **SQL diagnostics**
         - `database resource || diagnostic settings > add diagnostic settings`
             - gives you option to archive data to a storage account, send data to log analytics, select data to be sent
-            - You can also specify the retention period for data of logs
+            - You can also specify the retention period for data of logs -Note that this retention setting does not affect the logs in the workspace. For changing policies in the retention in workspace, you have to go to the database resource
         - For looking at usage and the estimated costs you can go to:
-            `database resource || usage and estimated costs`
+            - `database workspace resource || usage and estimated costs > data retention`
+            - By default data retention is for 30 days - can be increased
         
 
 
