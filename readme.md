@@ -567,6 +567,8 @@ I have created this repository for my self learning and reference for expert Clo
     
     - **SQL diagnostics**
         - `database resource || diagnostic settings > add diagnostic settings`
+            - gives you option to archive data to a storage account, send data to log analytics, select data to be sent
+            - You can also specify the retention period for data of logs
         
 
 
