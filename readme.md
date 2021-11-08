@@ -638,13 +638,16 @@ I have created this repository for my self learning and reference for expert Clo
                 - The the user is first authenticated by the app, the user is again verified in the middle tier, if verified it then generates a resource token from cosmosDB account for the app, Once the app gets the resource token, it can access the CosmosDB account
 
     - **Azure Data lake storage**
-        - Additional feature on top of Azure blob storage for enterprize evel data storage
+        - Additional feature on top of Azure blob storage for enterprize level data storage - processing vast amounts of data (in petabytes)- especially useful for big data analytics. Offers file level security and scale
         - Creats hiearchy of directories for efficient data access
         - Helpful for storing large amount of data in raw format including documents etc - it has not been processed
         - This is NOT the same as SQL datawarehouse - the key difference is that here the data is already processed and in structured format
         - You can activate the data lake storage feature while creating a storage account
             - under advanced check `enable data lake storage gen2`
         - Once the resource is created, if you go to the storage account and create a container, in the container, you will now have the ability to `add dirctory`
+
+    - **Azure databricks**
+        - Provides unified anaytics platform
 
 
 
