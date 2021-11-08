@@ -661,11 +661,23 @@ I have created this repository for my self learning and reference for expert Clo
                 - Notebooks - interacting with data and creating visualizations
                 - Libraries - to be run on cluster
                 - Data - To be mounted onto the databricks workspace
-            - **Creating Azure databricks**
+            - **Creating Azure databricks workspace**
                 - Search from resources and then create it
                 - Pricing tier: standard (Apache spark, Azure AD), premium, trial
+                - Databricks is a platform as service managed resource
                 - Under **networking tab**
-                    - yes for deploying into Vnet - this will create databricks clusters
+                    - no for deploying into Vnet - this will create databricks clusters (it will automatically create a new Vnet when created), yes if you already have a Vnet where you want to deploy databricks
+                    - Once the workspace is created, go to the resource 
+                    - Notice that in the home page you see that a `managed resource group` is already created
+                        - This automatically creates storage account, NSG and a workers Vnet
+                    - If you scroll down, you can see that there is a launch button to open the workspace - it will be linked to Azue AD
+                        - In the workspace you have the options to create notebooks, table, cluster etc
+                        - **Creating a cluster**
+                            - Click create cluster - it is the cluster of machines
+                            - cluster mode: high concurrency, standard, single node
+                            - select the runtime version. ML denotes versions with the option of machine learning
+                            - You can enable autoscaling
+                            - Specify the underlying workers - machines responsible for data processing
 
 
 
