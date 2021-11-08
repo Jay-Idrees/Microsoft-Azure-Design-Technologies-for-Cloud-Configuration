@@ -678,6 +678,7 @@ I have created this repository for my self learning and reference for expert Clo
                             - select the runtime version. ML denotes versions with the option of machine learning
                             - You can enable autoscaling
                             - Specify the underlying workers - machines responsible for data processing
+                            - If you checkmark `enable autoscaling` then you it will automatically spin new clusters as needed
 
 
 
