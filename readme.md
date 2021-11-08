@@ -637,6 +637,10 @@ I have created this repository for my self learning and reference for expert Clo
                 - For secure access the master keys are stored in the middle tier
                 - The the user is first authenticated by the app, the user is again verified in the middle tier, if verified it then generates a resource token from cosmosDB account for the app, Once the app gets the resource token, it can access the CosmosDB account
 
+    - **Azure Data lake storage**
+        - Additional feature on top of Azure blob storage for enterprize evel data storage
+        - Creats hiearchy of directories for efficient data access
+
 
 
 
