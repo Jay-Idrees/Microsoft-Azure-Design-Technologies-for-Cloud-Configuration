@@ -595,6 +595,11 @@ I have created this repository for my self learning and reference for expert Clo
             - The `user` who can use these keys must have the following permissions: `create, get, list, sign, verify, wrapkey and unwrapkey`
                 - You can assign these user roles by going to the `vault resource || access policies`
                     - Then select the user and under the key permissions assign the privilidges under cryptogenic, then save
+            - Then from the SQL server management studio - select the database and tables right click `encrypt columns` where you can select the column to be encrypted and then select the option of `deterministic` or `randomized` type
+            - Next, you specify where to store the encrypted key: `Azure key vault or windows certificate` - This will require signing into the Azure account through the management studio. Then you can select the vault in the studio which is available from your subscription
+            - Next from the management studio under security folder you can see the 'always encrypted keys' sub-folder which will show the key
+
+    - **Creating Azure SQL managed instance**
 
 
 
