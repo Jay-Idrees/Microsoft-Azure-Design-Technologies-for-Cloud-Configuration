@@ -626,6 +626,18 @@ I have created this repository for my self learning and reference for expert Clo
             - Once created go to the `resourse > console` This opens the console and you can run commands from there
             - For `integration with an application`, you will have to code such that first the app screens the cache to see if an id already exist, if not then make the query into the database. you will also have to link redis with the access key
 
+    - **Azure cosmosDB**
+        - Create Azure cosmos DB account from the main resources
+        - This offers noSQL options including core, Azure cosmos for MongoDB API, Azure table, gremlin etc
+            - Select capacity as `provisioned throughput` - charged based on request unit - you get 400RU/s and 5GB storage for free in an account
+            - `CosmosDB account || replicate data globally`
+            - You can add or remove regions or enable multi-region writes - Selection of these regions replicated tha data onto those regions
+            - **CosmosDB resource tokens**
+                - Consists of user account master keys
+                - For secure access the master keys are stored in the middle tier
+                - The the user is first authenticated by the app, the user is again verified in the middle tier, if verified it then generates a resource token from cosmosDB account for the app, Once the app gets the resource token, it can access the CosmosDB account
+
+
 
 
 
