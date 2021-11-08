@@ -609,6 +609,9 @@ I have created this repository for my self learning and reference for expert Clo
     - **Query performance insights**
         - You can also find out details about queries and some basic informtion
         - Go to the `database main page || query performance insight under intelligent performance`
+            - There you will see the query that is run and some basic statistics, if you click it you can actually see the query
+        - **Automatic tuning**
+            - Going to `databse main page || automatic tuning`
 
 
 
