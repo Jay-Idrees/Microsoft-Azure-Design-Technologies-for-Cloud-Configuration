@@ -677,8 +677,21 @@ I have created this repository for my self learning and reference for expert Clo
                             - cluster mode: high concurrency, standard, single node
                             - select the runtime version. ML denotes versions with the option of machine learning
                             - You can enable autoscaling
-                            - Specify the underlying workers - machines responsible for data processing
+                            - Specify the underlying workers - machines responsible for data processing (min and max)
                             - If you checkmark `enable autoscaling` then you it will automatically spin new clusters as needed
+                            - You can also specify when you can terminate cluster after specified minutes of inactivity
+                            - You can also terminate and restart the cluster
+                        - **Creating a notebook**
+                            - click create new notebook
+                            - select underlying language for notebook such as python of SQL - attach it to the appcluster that you created earlier > create
+                            - A notebook executes code - you can type in commands
+                            - Commands can be run in the form of cells
+                        - **Reading data in CSV file using notebook**
+                            - Add a container in the datastorage account and upload a csv file
+                            - If the file size is greater than 2mb, you cannot visualize the data
+                            - Using python, you can first create a mount point
+                            - for authentication/authorization you can use account keys or access signatures
+                                - You can get the keys from `storage account || access keys`
 
 
 
