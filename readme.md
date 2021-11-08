@@ -603,6 +603,13 @@ I have created this repository for my self learning and reference for expert Clo
         - Go to main resources and create `SQL managed instance`
         - It is helpful for SQL migration to Azure from on premesis environment
         - There are no DTUs with managed instance, there are basic and standard tiers
+        - This creates a virtual network that is connected to the managed instance
+        - You also have the option of geo-replication
+
+    - **Query performance insights**
+        - You can also find out details about queries and some basic informtion
+        - Go to the `database main page || query performance insight under intelligent performance`
+
 
 
 
