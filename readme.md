@@ -600,6 +600,9 @@ I have created this repository for my self learning and reference for expert Clo
             - Next from the management studio under security folder you can see the 'always encrypted keys' sub-folder which will show the key
 
     - **Creating Azure SQL managed instance**
+        - Go to main resources and create `SQL managed instance`
+        - It is helpful for SQL migration to Azure from on premesis environment
+        - There are no DTUs with managed instance, there are basic and standard tiers
 
 
 
