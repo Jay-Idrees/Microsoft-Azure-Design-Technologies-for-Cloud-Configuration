@@ -661,6 +661,11 @@ I have created this repository for my self learning and reference for expert Clo
                 - Notebooks - interacting with data and creating visualizations
                 - Libraries - to be run on cluster
                 - Data - To be mounted onto the databricks workspace
+            - **Creating Azure databricks**
+                - Search from resources and then create it
+                - Pricing tier: standard (Apache spark, Azure AD), premium, trial
+                - Under **networking tab**
+                    - yes for deploying into Vnet - this will create databricks clusters
 
 
 
