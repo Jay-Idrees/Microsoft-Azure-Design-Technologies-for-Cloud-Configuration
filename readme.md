@@ -611,7 +611,8 @@ I have created this repository for my self learning and reference for expert Clo
         - Go to the `database main page || query performance insight under intelligent performance`
             - There you will see the query that is run and some basic statistics, if you click it you can actually see the query
         - **Automatic tuning**
-            - Going to `databse main page || automatic tuning`
+            - Going to `databse main page || automatic tuning under intellegent performance` - This is to optomize performance
+                - automatic option and manual option based on query performance insight tools
 
 
 
