@@ -592,7 +592,10 @@ I have created this repository for my self learning and reference for expert Clo
             - Two types: **Deterministic** - less secure but allows for point lookups, equality joins, grouping and indexing
                         - **Randomized** - More secure, but does notallow point lookups, equality joins, grouping and indexing
             - Once the encryption is enabled 2 keys are generated: 1) `column master key` and 2) `column encryption key` These are stored in a separate place such as the key vault or windows certificate store
-            - The user who can use these keys must have the following permissions: `create, get, list, sign, verify, wrapkey and unwrapkey`
+            - The `user` who can use these keys must have the following permissions: `create, get, list, sign, verify, wrapkey and unwrapkey`
+                - You can assign these user roles by going to the `vault resource || access policies`
+                    - Then select the user and under the key permissions assign the privilidges under cryptogenic, then save
+
 
 
 
