@@ -692,6 +692,9 @@ I have created this repository for my self learning and reference for expert Clo
                             - Using python, you can first create a mount point
                             - for authentication/authorization you can use account keys or access signatures
                                 - You can get the keys from `storage account || access keys`
+                                - In the notebook, you will first have to establish authentication - this is done with python code that incorporates the account key into the command to link with the storage account where the csv file is present - this step is called `creating a mount point`
+                                - Next you can write the code to list the files in the storage
+                                - Next you can write code to read csv file using spark in a new cell- this consists of two steps-first you create a data frame and then display the data
 
 
 
