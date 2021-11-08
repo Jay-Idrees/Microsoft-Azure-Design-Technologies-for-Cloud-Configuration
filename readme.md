@@ -614,6 +614,13 @@ I have created this repository for my self learning and reference for expert Clo
             - Going to `databse main page || automatic tuning under intellegent performance` - This is to optomize performance
                 - automatic option and manual option based on query performance insight tools
 
+    
+    - **Azure Redis Cahe**
+        - This is a platform managed service - in memorydata store in SSDs
+        - This service cache's the frequently requested data for increasing speeds
+        - The user makes a request for the first time, then the app fetches the data from SQL and stores inside the `in memory data store`
+            - If the user makes the same request again, then it will fetch it from the in-memory store rather than executing a full scale query from the SQL
+
 
 
 
