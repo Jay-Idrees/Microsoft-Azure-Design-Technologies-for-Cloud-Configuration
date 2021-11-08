@@ -615,12 +615,16 @@ I have created this repository for my self learning and reference for expert Clo
                 - automatic option and manual option based on query performance insight tools
 
     
-    - **Azure Redis Cahe**
-        - This is a platform managed service - in memorydata store in SSDs
-        - This service cache's the frequently requested data for increasing speeds
+    - **Azure Redis Cache**
+        - This is a platform managed service - in memory data store in SSDs
+        - This service caches the frequently requested data for increasing speeds
         - The user makes a request for the first time, then the app fetches the data from SQL and stores inside the `in memory data store`
             - If the user makes the same request again, then it will fetch it from the in-memory store rather than executing a full scale query from the SQL
-
+        - **Creating Redis cache**
+            - Search for redis cache in main resources > create
+            - From redis.io you can install the tool in cluster
+            - Once created go to the `resourse > console` This opens the console and you can run commands from there
+            - For `integration with an application`, you will have to code such that first the app screens the cache to see if an id already exist, if not then make the query into the database. you will also have to link redis with the access key
 
 
 
