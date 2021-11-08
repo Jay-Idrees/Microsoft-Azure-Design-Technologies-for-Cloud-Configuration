@@ -644,6 +644,7 @@ I have created this repository for my self learning and reference for expert Clo
         - This is NOT the same as SQL datawarehouse - the key difference is that here the data is already processed and in structured format
         - You can activate the data lake storage feature while creating a storage account
             - under advanced check `enable data lake storage gen2`
+        - Once the resource is created, if you go to the storage account and create a container, in the container, you will now have the ability to `add dirctory`
 
 
 
