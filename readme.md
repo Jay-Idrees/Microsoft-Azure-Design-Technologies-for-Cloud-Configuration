@@ -647,7 +647,20 @@ I have created this repository for my self learning and reference for expert Clo
         - Once the resource is created, if you go to the storage account and create a container, in the container, you will now have the ability to `add dirctory`
 
     - **Azure databricks**
-        - Provides unified anaytics platform
+        - Provides unified anaytics platform that is built on Apache Spark
+        - Apache spark engine will need to be installed onto the machines along with the libraries - also referred to as provisioning
+        - `Databricks` basically takes care of setting up spark engine which includes
+            - Computing the infrastructure
+            - Takes care of underlying storage
+            - abstraction of data layer
+            - Adds capabilities of machine learning
+            - Create visualizations
+            - Allows integration with other Azure resources: V nets, Azure Security, role based access control
+            - **Components of Azure databricks workspace**
+                - Clusters - used to run data processing jobs
+                - Notebooks - interacting with data and creating visualizations
+                - Libraries - to be run on cluster
+                - Data - To be mounted onto the databricks workspace
 
 
 
