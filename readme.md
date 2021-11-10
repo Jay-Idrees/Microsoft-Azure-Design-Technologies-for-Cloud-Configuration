@@ -702,7 +702,13 @@ I have created this repository for my self learning and reference for expert Clo
             - Under additional settings you have the option of seleting "sample" in `use exisiting data ` configuration
             - Once the resource is created, from its hompage you can get the server name (the website)
         - Connect with the database engine in Azure using SQL server management studio
-            - here you will see that 
+            - here you will see that under database that the sample tables are already created
+        - **Creating Azure synapse analytics**
+            - You can searh for it in general resoures and then create
+                - Select the region, subscription as usual
+                - You will need to create an **Azure datalake account** or choose an existing one
+                - You will also have to create a **file system name**
+                - With this what you create is a synapse workspace - so when you go to the resource homepage, you will see the homepage of the **workspace** of **Azure Synapse**
 
 
 
