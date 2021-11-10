@@ -701,7 +701,7 @@ I have created this repository for my self learning and reference for expert Clo
         - Create an SQL database
             - Under additional settings you have the option of seleting "sample" in `use exisiting data ` configuration
             - Once the resource is created, from its hompage you can get the server name (the website)
-        - Connect with the database engine in Azure using SQL server management studio
+        - Connect with the database engine in Azure using `SQL server management studio`
             - here you will see that under database that the sample tables are already created
         - **Creating Azure synapse analytics**
             - The first step is to create an Azure synapse analytics workspace
@@ -716,7 +716,11 @@ I have created this repository for my self learning and reference for expert Clo
                     - Serverless or service SQL endpoint - You create a dedicated SQL pool inside an Azure analytics workspace
                     - Undrer `Azure analytics workspace resource || Analytics pool` you an see the built in SQL pool - This is the default pool that is created when you create an Azure synapse workspace. You can create additional pools by `azure analytics workspace resource
         - **Creating a dedicated SQL warehouse or pool**
-            - `Azure analytics workspace resource > New dedicated SQL pool`
+            - `Azure analytics workspace resource > New dedicated SQL pool` This will create a new pool
+            - This is required if you want to perform analytics on data
+            - Once the pool is created, you can go to the resource homepage
+            - On the homepage you will see a weblink under **dediated SQL endpoint** - this is like the server address to the SQL pool, you can connect to it by pasting this link in the server when using the **SQL server management studio**
+
 
 
 
