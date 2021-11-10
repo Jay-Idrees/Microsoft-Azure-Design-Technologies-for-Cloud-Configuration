@@ -730,6 +730,7 @@ I have created this repository for my self learning and reference for expert Clo
                     - `Ingest` the data from sources
                     - `Transform `the data in pipeline
                     - `Publish` the data in forms of Warehouse, SQL database or Cosmos DB
+                - A **pipeline** is nothing but a logical grouping of activities inside the data factory
 
 
 
