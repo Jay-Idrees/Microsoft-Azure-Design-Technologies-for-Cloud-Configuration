@@ -696,6 +696,14 @@ I have created this repository for my self learning and reference for expert Clo
                                 - Next you can write the code to list the files in the storage
                                 - Next you can write code to read csv file using spark in a new cell- this consists of two steps-first you create a data frame and then display the data
 
+    - **Azure synapse analytics**
+        - It is compiling together data from all sources into a single location called SQL database warehouse
+        - Create an SQL database
+            - Under additional settings you have the option of seleting "sample" in `use exisiting data ` configuration
+            - Once the resource is created, from its hompage you can get the server name (the website)
+        - Connect with the database engine in Azure using SQL server management studio
+            - here you will see that 
+
 
 
 
