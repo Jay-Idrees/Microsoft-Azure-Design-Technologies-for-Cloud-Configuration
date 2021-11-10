@@ -714,7 +714,9 @@ I have created this repository for my self learning and reference for expert Clo
                     - SQL admin username
                     - Dediated SQL endpoint - this allows you to connect with a dedicated SQL pool which is a dedicated 
                     - Serverless or service SQL endpoint - You create a dedicated SQL pool inside an Azure analytics workspace
-                    - Undrer `Azure analytics workspace resource || Analytics pool` you an see the built in SQL pool
+                    - Undrer `Azure analytics workspace resource || Analytics pool` you an see the built in SQL pool - This is the default pool that is created when you create an Azure synapse workspace. You can create additional pools by `azure analytics workspace resource
+        - **Creating a dedicated SQL warehouse or pool**
+            - `Azure analytics workspace resource > New dedicated SQL pool`
 
 
 
