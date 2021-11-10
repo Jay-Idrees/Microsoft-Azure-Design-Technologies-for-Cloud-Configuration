@@ -720,6 +720,8 @@ I have created this repository for my self learning and reference for expert Clo
             - This is required if you want to perform analytics on data
             - Once the pool is created, you can go to the resource homepage
             - On the homepage you will see a weblink under **dediated SQL endpoint** - this is like the server address to the SQL pool, you can connect to it by pasting this link in the server when using the **SQL server management studio**
+            - **Azure Data Factory**
+                - Allows Extraction, transformation and loading of data
 
 
 
