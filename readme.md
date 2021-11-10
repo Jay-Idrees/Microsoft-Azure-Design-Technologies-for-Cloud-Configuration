@@ -722,11 +722,14 @@ I have created this repository for my self learning and reference for expert Clo
             - On the homepage you will see a weblink under **dediated SQL endpoint** - this is like the server address to the SQL pool, you can connect to it by pasting this link in the server when using the **SQL server management studio**
             - **Azure Data Factory**
                 - Allows Extraction, transformation and loading of data
+                - Components:
+                    - **Linked service** the function that ingests the data
+                    - Datasets - it is the **linked service object** - which is the datastructure inside the data store
                 - Process:
-                    - Connect with data sources
-                    - Ingest the data from sources
-                    - Transform the data in pipeline
-                    - Publish the data in forms of Warehouse, SQL database or Cosmos DB
+                    - `Connect` with data sources
+                    - `Ingest` the data from sources
+                    - `Transform `the data in pipeline
+                    - `Publish` the data in forms of Warehouse, SQL database or Cosmos DB
 
 
 
