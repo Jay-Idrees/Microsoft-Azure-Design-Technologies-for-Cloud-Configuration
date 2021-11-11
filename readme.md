@@ -741,6 +741,10 @@ I have created this repository for my self learning and reference for expert Clo
         - `Backup and restore` - High chance of data loss
         - `Continues replication`- maybe every 5 minutes - you are relicating the changes
     - With **Azure SQL database backup** full backups are taken every week differential backups are taken every 12-14hrs and transactional log backups are taken every 5-10 minutes
+    - **Restore options**
+        - Point in time restore - restore of database is done on the same server - can be done for both existing and deleted databases
+        - Geo-restore - restore on a different location
+        - Backups can be stored for up to 10 years in storage accounts
 
 
 
