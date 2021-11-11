@@ -767,9 +767,16 @@ I have created this repository for my self learning and reference for expert Clo
     - `database resource || geo-replication under database management`
         - Here you will choose the location where you want your data to be replicated to
         - You will probably have to create a new database server for the new location - Allow az services to access the server. Note that the firewall rules do not get copied from the primary database server to the secondary database servers and you will not be able to connect to the geo-replication database via SQL server manager if the ip policies are not configured in the geo-server db
+        - The name of the geo db is the same as the db which is a copy of, but it has a marker geo and it is a read only copy
+        - You can configure the IP settings by going to the `replicated db > webserver address > show firewall settings > Add client ip address`
+    - Geo-replication failovers are always done manual
 
 - Geo-restore and geo-replicated backups are slow - higher RTO and RPO 12/1hr
 - Auto-failover and manual database failover has much lower RTO RPO as less as 5 s or RPO
+- You can test failover by first creating a geo replica of a database, then making entries into the primary and then executing the failover from the secondary-geo db that you previously created. 
+- `SQL databases > primary db > primary db server || geo-replication`
+    - Here where you see the secondary db in the different region, the one which is readable, right click and select `forced failover`
+    - Also remember to add an IP address policy in the firewall settings of the secondary database if you want to connect to it via the SQL database server manager
 
 
 
