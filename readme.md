@@ -737,6 +737,11 @@ I have created this repository for my self learning and reference for expert Clo
 - **RPO** - **Recovery point objective** - how much data can you afford to loose after the recovery is made - maybe 5min from the time of shoud down or 2hrs that you may be ok to loose
 - **RTO** - **Recovery time objective** - How long will it take to get the database up and running -for apps that are highly critial , it must be back up and running withn 10 minutes
 
+    - **options**
+        - `Backup and restore` - High chance of data loss
+        - `Continues replication`- maybe every 5 minutes - you are relicating the changes
+    - With **Azure SQL database backup** full backups are taken every week differential backups are taken every 12-14hrs and transactional log backups are taken every 5-10 minutes
+
 
 
 
