@@ -749,6 +749,27 @@ I have created this repository for my self learning and reference for expert Clo
         - Go to `database homepage > restore` This is done based on an earlier restore point - these backups were automated backups
         - Once the backup restore is complete, you will see a new database in the SQL databases in restore which is the copy of the database the you backed up. Even if you do not have any data in the database, it can still take up to 10 minutes for the backup to complete the restore. The copy is created on the same databse server
         - You can delete a database by going to the `homepage of that database > delete`
+        - You can locate the deleted database by going to `database server > deleted databases`
+            - Once you click the deleted database that you see here, there is an option to restore based on a restore point
+- **Zone redundancy**
+    - Replicates the database to mulitple zones which means that the data is replicated to nodes in different data centers and is replicated synchronously
+    - You will have to pay for data that is replicated in every availability zone - typically x3
+    - The data is initially stored in the primary availability zone, then to the other 2 from the primary. This affects the latency
+    - Options:
+        - General purpose
+        - Hyperscale
+- **Geo-replication**
+    - Data is coninuesly replicated into a readable secondary database in the same or a different data center (same server or a different server)
+    - This feature is not supported by Azure SQL managed instance
+    - The secondary database is read-only no writes
+    - One benifit of the primary and secondary system of databases is that you an then focus the application related database tasks with the primary and you can focus the secondary for reports and failover (when the primary fails). A failover can result in a small dataloss
+    - Auto-failover - you can automate the process of replication and failover - can be done automatically via a policy or manually 
+    - `database resource || geo-replication under database management`
+        - Here you will choose the location where you want your data to be replicated to
+        - You will probably have to create a new database server for the new location - Allow az services to access the server. Note that the firewall rules do not get copied from the primary database server to the secondary database servers and you will not be able to connect to the geo-replication database via SQL server manager if the ip policies are not configured in the geo-server db
+
+- Geo-restore and geo-replicated backups are slow - higher RTO and RPO 12/1hr
+- Auto-failover and manual database failover has much lower RTO RPO as less as 5 s or RPO
 
 
 
