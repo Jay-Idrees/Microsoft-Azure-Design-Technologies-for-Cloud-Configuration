@@ -777,6 +777,7 @@ I have created this repository for my self learning and reference for expert Clo
 - `SQL databases > primary db > primary db server || geo-replication`
     - Here where you see the secondary db in the different region, the one which is readable, right click and select `forced failover`
     - Also remember to add an IP address policy in the firewall settings of the secondary database if you want to connect to it via the SQL database server manager
+    - This will update the current version of the secondary database with the changes from the latest version of the primary database
 
 
 
