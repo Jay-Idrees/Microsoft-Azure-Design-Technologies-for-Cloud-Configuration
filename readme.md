@@ -742,9 +742,13 @@ I have created this repository for my self learning and reference for expert Clo
         - `Continues replication`- maybe every 5 minutes - you are relicating the changes
     - With **Azure SQL database backup** full backups are taken every week differential backups are taken every 12-14hrs and transactional log backups are taken every 5-10 minutes
     - **Restore options**
-        - Point in time restore - restore of database is done on the same server - can be done for both existing and deleted databases
-        - Geo-restore - restore on a different location
+        - `Point in time` restore - restore of database is done on the same server - can be done for both existing and deleted databases
+        - `Geo-restore` - restore on a different location
         - Backups can be stored for up to 10 years in storage accounts
+    - **Point in time restore**
+        - Go to `database homepage > restore` This is done based on an earlier restore point - these backups were automated backups
+        - Once the backup restore is complete, you will see a new database in the SQL databases in restore which is the copy of the database the you backed up. Even if you do not have any data in the database, it can still take up to 10 minutes for the backup to complete the restore. The copy is created on the same databse server
+        - You can delete a database by going to the `homepage of that database > delete`
 
 
 
