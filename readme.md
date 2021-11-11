@@ -731,6 +731,11 @@ I have created this repository for my self learning and reference for expert Clo
                     - `Transform `the data in pipeline
                     - `Publish` the data in forms of Warehouse, SQL database or Cosmos DB
                 - A **pipeline** is nothing but a logical grouping of activities inside the data factory
+                - Note that SQL server and database are 2 different things
+## Business Continuity
+
+- **RPO** - **Recovery point objective** - how much data can you afford to loose after the recovery is made - maybe 5min from the time of shoud down or 2hrs that you may be ok to loose
+- **RTO** - **Recovery time objective** - How long will it take to get the database up and running -for apps that are highly critial , it must be back up and running withn 10 minutes
 
 
 
