@@ -789,6 +789,11 @@ I have created this repository for my self learning and reference for expert Clo
         - Once the group is created and you go to its 
         - One change is that instead of using the server weblink, now you are using the read-write link from the failover group
         - The automatic failover will kick in after a certain number of data entries and time - you do not have to manually trigger it
+- **Storage account redundancy**
+    - There are multiple copies
+    - Types:
+        - Locally redundant - 3 copies 
+        - Zone redundant - protects against data center level failures - the data is replicated at 3 availability zones
 
 
 
