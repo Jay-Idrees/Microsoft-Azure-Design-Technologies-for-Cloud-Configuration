@@ -809,7 +809,7 @@ I have created this repository for my self learning and reference for expert Clo
     - If thre are 2 VMs, in 2 or more availability zones, connectivity to at least 1 is 99.9%
 
 - **Backup for Azure VMs**
-    - `VM resource || backup` The backup is stored in a backup vault
+    - `VM resource || backup` The backup is stored in a backup vault, the backup service will automatically create a new vault if one does not exist already
 
 
 
