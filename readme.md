@@ -747,7 +747,7 @@ I have created this repository for my self learning and reference for expert Clo
         - Backups can be stored for up to 10 years in storage accounts
     - **Point in time restore**
         - Go to `database homepage > restore` This is done based on an earlier restore point - these backups were automated backups
-        - Once the backup restore is complete, you will see a new database in the SQL databases in restore which is the copy of the database the you backed up. Even if you do not have any data in the database, it can still take up to 10 minutes for the backup to complete the restore. The copy is created on the same databse server
+        - Once the backup restore is complete, you will see a new database in the SQL databases in restore which is the copy of the database that you backed up. Even if you do not have any data in the database, it can still take up to 10 minutes for the backup to complete the restore. The copy is created on the same database server
         - You can delete a database by going to the `homepage of that database > delete`
         - You can locate the deleted database by going to `database server > deleted databases`
             - Once you click the deleted database that you see here, there is an option to restore based on a restore point
@@ -766,7 +766,7 @@ I have created this repository for my self learning and reference for expert Clo
     - Auto-failover - you can automate the process of replication and failover - can be done automatically via a policy or manually 
     - `database resource || geo-replication under database management`
         - Here you will choose the location where you want your data to be replicated to
-        - You will probably have to create a new database server for the new location - Allow az services to access the server. Note that the firewall rules do not get copied from the primary database server to the secondary database servers and you will not be able to connect to the geo-replication database via SQL server manager if the ip policies are not configured in the geo-server db
+        - You will probably have to **create a new database server** for the new location - Allow az services to access the server. Note that the firewall rules do not get copied from the primary database server to the secondary database servers and you will not be able to connect to the geo-replication database via SQL server manager if the ip policies are not configured in the geo-server db
         - The name of the geo db is the same as the db which is a copy of, but it has a marker geo and it is a read only copy
         - You can configure the IP settings by going to the `replicated db > webserver address > show firewall settings > Add client ip address`
     - Geo-replication failovers are always done manual
@@ -774,10 +774,20 @@ I have created this repository for my self learning and reference for expert Clo
 - Geo-restore and geo-replicated backups are slow - higher RTO and RPO 12/1hr
 - Auto-failover and manual database failover has much lower RTO RPO as less as 5 s or RPO
 - You can test failover by first creating a geo replica of a database, then making entries into the primary and then executing the failover from the secondary-geo db that you previously created. 
+- **Manual failover**
 - `SQL databases > primary db > primary db server || geo-replication`
     - Here where you see the secondary db in the different region, the one which is readable, right click and select `forced failover`
     - Also remember to add an IP address policy in the firewall settings of the secondary database if you want to connect to it via the SQL database server manager
     - This will update the current version of the secondary database with the changes from the latest version of the primary database
+- **Automated failover**
+    - `SQL databases > primary database > primary database server || geo-replication`
+    - Stop the replication by the secondary database and then delete the secondary database (not the server) from the SQL databases list
+    - Then from the primary database through the SQL database manager - create a new table in the parimary database
+    - Then go to the server page for the `primary SQL database || failover groups > add group`
+        - choose the replicate server
+        - read/write policy as is
+        - Once the group is created and you go to its 
+        - One change is that instead of using the server weblink, now you are using the read-write link from the failover group
 
 
 
