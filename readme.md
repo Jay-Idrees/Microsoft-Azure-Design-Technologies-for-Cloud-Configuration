@@ -811,7 +811,8 @@ I have created this repository for my self learning and reference for expert Clo
 - **Backup for Azure VMs**
     - `VM resource || backup` The backup is stored in a backup vault, the backup service will automatically create a new vault if one does not exist already
     - You can schedule a backup on a daily basis or weekly basis - you cannot have constant backup with virtual machines - not more than once per day
-    - Before the backup is sent to the vault- it is stored in the VM for 2 days - You can define all these rules in a policy
+    - Before the backup is sent to the vault- it is stored in the VM for 2 days - You can define all these rules in a policy. This VM backup allows instant restore
+    - The backup itself in the vault is retained for 30days
     - If you want constant backup with VMs you can use `Vm resource || disaster recovery` Constantly replicates data onto a secondary location
 
 
