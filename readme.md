@@ -793,7 +793,8 @@ I have created this repository for my self learning and reference for expert Clo
     - There are multiple copies
     - Types:
         - Locally redundant - 3 copies 
-        - Zone redundant - protects against data center level failures - the data is replicated at 3 availability zones
+        - Zone redundant - protects against data center level failures - the data is replicated at 3 availability zones that are within a single region
+        - Geo-redundant - multi-region, can survive region level failure
 
 
 
