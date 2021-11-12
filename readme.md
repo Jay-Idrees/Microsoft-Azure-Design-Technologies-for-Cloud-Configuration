@@ -810,6 +810,7 @@ I have created this repository for my self learning and reference for expert Clo
 
 - **Backup for Azure VMs**
     - `VM resource || backup` The backup is stored in a backup vault, the backup service will automatically create a new vault if one does not exist already
+    - You can schedule a backup on a daily basis or weekly basis - you cannot have constant backup with virtual machines - not more than once per day
 
 
 
