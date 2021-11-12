@@ -794,7 +794,12 @@ I have created this repository for my self learning and reference for expert Clo
     - Types:
         - `Locally redundant` - 3 copies 
         - `Zone redundant` - protects against data center level failures - the data is replicated at 3 availability zones that are within a single region
-        - `Geo-redundant` - multi-region, can survive region level failure. There is a primary region and a secondary region. This is called paired region. The secondary region is automatically decided by Azure. Here the data is copied x3 in the primary as well as the secondary region using locally redundant storage, each.
+        - `Geo zone-redundant` - multi-region, can survive region level failure. There is a primary region and a secondary region. This is called paired region. The secondary region is automatically decided by Azure. Here the data is copied x3 in the primary as well as the secondary region using locally redundant storage, each. Only when the primary region goes down, does the secondary becomes available
+        - `Read-access geo-redundant storage` - Both regions are available, regardless of the region where the failure occurs
+        - **payment**
+            - You pay for data in each region, both primary and secondary
+            - You pay for data transfer b/w region
+            - you pay for data transfer b/w availability zones
 
 
 
