@@ -819,6 +819,8 @@ I have created this repository for my self learning and reference for expert Clo
     - Goals: business continuity and recovery in the setting of an outage
     - The data is replicated onto a secondary datacenter
     - There is also an option of switching the application onto the servers in Azure instead of the primary data center
+    - The RPO in this setting is low - as the replication frequency is high thus the data loss is only for the recent 30s for Hyper-V
+    - The RTO is alo low. As the data is replicated in a secondary VM, it can be restored quickly
 
 
 
