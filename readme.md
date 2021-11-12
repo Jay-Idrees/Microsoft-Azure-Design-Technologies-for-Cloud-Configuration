@@ -808,6 +808,9 @@ I have created this repository for my self learning and reference for expert Clo
     - If there are 2 VMs, both in the same availability set connectivity to at least 1 is 99.95%
     - If thre are 2 VMs, in 2 or more availability zones, connectivity to at least 1 is 99.9%
 
+- **Backup for Azure VMs**
+    - `VM resource || backup` The backup is stored in a backup vault
+
 
 
 
