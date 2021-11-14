@@ -815,7 +815,7 @@ I have created this repository for my self learning and reference for expert Clo
     - The backup itself in the vault is retained for 30days
     - If you want constant backup with VMs you can use `Vm resource || disaster recovery` Constantly replicates data onto a secondary location
 
-- **Azure site recover service**
+- **Azure site recovery service**
     - Goals: business continuity and recovery in the setting of an outage
     - The data is replicated onto a secondary datacenter
     - There is also an option of switching the application onto the servers in Azure instead of the primary data center
