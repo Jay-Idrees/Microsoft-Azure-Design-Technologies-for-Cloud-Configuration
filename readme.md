@@ -833,6 +833,8 @@ I have created this repository for my self learning and reference for expert Clo
 
         - Once you have created a replica, It will also create a new resourse group, you can get to it by locating it under the resources. And when you get to the home page of this resource group - you will be able to see everything that is in it including the new replica that is created
             - What the recovery vault creates is a Vnet and the replia copy - No VM will be present - the later is only present when you **initiate a failover** You can get to the recovery services vault from the main resource page
+                - `recovery vault resource || replicated items under protected items` will show you whether your current VM has been nicely and continuesly being backed up using the primary VM
+                - `recovery vault resource || site recovery inrastructure || replication policies` Her you can see the default policy or modify it
             - You can also specify the replication policies where you can define things like retention period
             - Once you have run the failover, you can go to the VM from the main resources and you will be able to see 
             - Finally you can also cleanup the test failover
