@@ -827,6 +827,7 @@ I have created this repository for my self learning and reference for expert Clo
         - If you have a low RPO and RTO - the data is continurely replicated into the destination region
         - You can review the `Vm resource page || disaster recovery under operations` to see the current settings for data recovery. There you can also see the RPO
         - Once you have created a replica, It will also create a new resourse group, you can get to it by locating it under the resources. And when you get to the home page of this resource group - you will be able to see everything that is in it including the new replica that is created
+            - What the recovery vault creates is a Vnet and the replia copy - No VM will be present - the later is only present when you initiate a failover
 
 
 
