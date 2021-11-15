@@ -825,9 +825,17 @@ I have created this repository for my self learning and reference for expert Clo
         - The VM is first stored into a cache storage account which creates a restore point in the data center of a destination region (usually differnt from the primary region) from which a new virtual machine (target VM) which is the replica of the VM from the primary region is spun
         - The storage accounts are uaually automatially created in the destination region
         - If you have a low RPO and RTO - the data is continurely replicated into the destination region
-        - You can review the `Vm resource page || disaster recovery under operations` to see the current settings for data recovery. There you can also see the RPO
+        - You can review the `Vm resource page || disaster recovery under operations ` to see the current settings for data recovery. There you can also see the RPO and the **latest recovery points** - these will be displayed if a recovery vault is already configured
+            - Othersise This is also where you can enable and configure the process of disaster recovery if one does not exist already
+            - If you go under `advanced settings` you can set various settings for cache account, replication policy etc
+            - You can go under `start replication` to initiate the process of backup and recovery
+            - It will also create recovery services vault automatically if one does not exist
+
         - Once you have created a replica, It will also create a new resourse group, you can get to it by locating it under the resources. And when you get to the home page of this resource group - you will be able to see everything that is in it including the new replica that is created
             - What the recovery vault creates is a Vnet and the replia copy - No VM will be present - the later is only present when you initiate a failover
+            - You can also specify the recovery policies where you can define things like retention period
+            - Once you have run the failover, you can go to the VM from the main resources and you will be able to see 
+            - Finally you can also cleanup the test failover
 
 
 
