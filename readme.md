@@ -818,10 +818,16 @@ I have created this repository for my self learning and reference for expert Clo
 - **Azure site Recovery Service**
     - Goals: business continuity and recovery in the setting of an outage
     - Typically a company will have 2 data centers - one is primary and another is the secondary or backup - both on premesis
-    - The data is replicated onto a secondary datacenter
     - There is also an option of switching the application onto the servers in Azure instead of the primary data center
     - The RPO in this setting is low - as the replication frequency is high thus the data loss is only for the recent 30s for Hyper-V
     - The RTO is alo low. As the data is replicated in a secondary VM, it can be restored quickly
+    - **Disaster recovery for an Azure Virtual Machine**
+        - The VM is first stored into a cache storage account which creates a restore point in the data center of a destination region (usually differnt from the primary region) from which a new virtual machine which is the replica of the VM from the primary region is spun
+        - The storage accounts are uaually automatially created in the destination region
+        - If you have a low RPO and RTO - the data is continurely replicated into the destination region
+        - You can review the `Vm resource page || disaster recovery under operations` to see the current settings for data recovery
+
+
 
 
 
