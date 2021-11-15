@@ -817,6 +817,7 @@ I have created this repository for my self learning and reference for expert Clo
 
 - **Azure site Recovery Service**
     - Goals: business continuity and recovery in the setting of an outage
+    - Typically a company will have 2 data centers - one is primary and another is the secondary or backup - both on premesis
     - The data is replicated onto a secondary datacenter
     - There is also an option of switching the application onto the servers in Azure instead of the primary data center
     - The RPO in this setting is low - as the replication frequency is high thus the data loss is only for the recent 30s for Hyper-V
