@@ -853,7 +853,7 @@ I have created this repository for my self learning and reference for expert Clo
                 - Here you can specify the source and destination, select hyper V under are machines virtualized. System center is typically when you have multiple hyper V hosts, so here you can select no. 
                 - The next step is to prepare source > `+hyper V site`, `+hyper V server`- This is to ensure that 
                 - The hyper V host needs to be registered into the recovery services vault
-                    - Install the agent on the hyper V host (Azure site recovery provider). You can do this by downloading the file on your laptop and then mapping your laptop drive into the hyper V and then copying the file into the hyper V and then running it from hyper V
+                    - Install the agent on the hyper V host (Azure site recovery provider - this is the hyper V of company on local premesis). You can do this by downloading the file on your laptop and then mapping your laptop drive into the hyper V and then copying the file into the hyper V and then running it from hyper V
 
 
 
