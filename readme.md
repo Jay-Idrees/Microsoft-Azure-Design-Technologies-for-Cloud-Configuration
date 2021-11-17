@@ -854,6 +854,13 @@ I have created this repository for my self learning and reference for expert Clo
                 - The next step is to prepare source > `+hyper V site`, `+hyper V server`- This is to ensure that 
                 - The hyper V host needs to be registered into the recovery services vault
                     - Install the agent on the hyper V host (Azure site recovery provider - this is the hyper V of company on local premesis). You can do this by downloading the file on your laptop and then mapping your laptop drive into the hyper V and then copying the file into the hyper V and then running it from hyper V
+                - Before you `transfer` the VM, you will have to create a **storage account** and **Vnet** and **subnet** on the target on Azure
+                - You can then specify a policy for replication, defining: copy frequency, recovery point retention, app-consistent snap shot etc
+                - The VMs on the local hyper V will be automatically detected
+                - Under properties you complete the mapping - define the target VM name
+                - Finally assign the replication policy that you have previously created and then you can enable the replication
+                - Once these steps are complete you have completed the prepare infrastructure part
+                - You can then monitor the replication by going to the `recovery services vault resource || replicated items`
 
 
 
