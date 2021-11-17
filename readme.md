@@ -849,6 +849,11 @@ I have created this repository for my self learning and reference for expert Clo
             - Here, you are not copying hyper V to hyper V, but actually copying VM from a local hyper V to Azure hyper V
             - You will have to install an agent on both HyperV s (local+Azure)
             - Agent will have to be installed on every VM that is part of the hyper V (often each hyper V contain cluster of VMs)
+            - Go to `reovery services vault site recovery || site recovery` to prepare infrastructure
+                - Here you can specify the source and destination, select hyper V under are machines virtualized. System center is typically when you have multiple hyper V hosts, so here you can select no. 
+                - The next step is to prepare source > `+hyper V site`, `+hyper V server`- This is to ensure that 
+                - The hyper V host needs to be registered into the recovery services vault
+                    - Install the agent on the hyper V host (Azure site recovery provider). You can do this by downloading the file on your laptop and then mapping your laptop drive into the hyper V and then copying the file into the hyper V and then running it from hyper V
 
 
 
