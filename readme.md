@@ -822,6 +822,9 @@ I have created this repository for my self learning and reference for expert Clo
     - The RPO in this setting is low - as the replication frequency is high thus the data loss is only for the recent 30s for Hyper-V
     - The RTO is alo low. As the data is replicated in a secondary VM, it can be restored quickly
     - **Disaster recovery for an Azure Virtual Machine**
+        - This is a feature available with a VM that can be activated to backup the whole machine into a recovery vault and then using the backup to recover and recreate it
+        - When you enable disaster a duplicate virtual network and a storage account are created
+        - Changes to the VM are first weitten to a cache account which is then replicated into the target storage
         - The VM is first stored into a cache storage account which creates a restore point in the data center of a destination region (usually differnt from the primary region) from which a new virtual machine (target VM) which is the replica of the VM from the primary region is spun
         - The storage accounts are uaually automatially created in the destination region
         - If you have a low RPO and RTO - the data is continurely replicated into the destination region
@@ -834,11 +837,15 @@ I have created this repository for my self learning and reference for expert Clo
         - Once you have created a replica, It will also create a new resourse group, you can get to it by locating it under the resources. And when you get to the home page of this resource group - you will be able to see everything that is in it including the new replica that is created
             - What the recovery vault creates is a Vnet and the replia copy - No VM will be present - the later is only present when you **initiate a failover** You can get to the recovery services vault from the main resource page
                 - You can initiate a **test failover** `Vm resource page || disaster recovery under operations > test failover `
+                - You can select between app consistent (higher RPO) or latest processed options when creating a failover
+                - `Vm resource page || disaster recovery under operations >failover ` to run actual failover
                 - `recovery vault resource || replicated items under protected items` will show you whether your current VM has been nicely and continuesly being backed up using the primary VM
                 - `recovery vault resource || site recovery inrastructure || replication policies` Her you can see the default policy or modify it
             - You can also specify the replication policies where you can define things like retention period
             - Once you have run the failover, you can go to the VM from the main resources and you will be able to see 
             - Finally you can also cleanup the test failover
+        - **Azure site Recovery - Hyper V**
+            - 
 
 
 
