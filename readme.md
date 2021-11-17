@@ -845,7 +845,9 @@ I have created this repository for my self learning and reference for expert Clo
             - Once you have run the failover, you can go to the VM from the main resources and you will be able to see 
             - Finally you can also cleanup the test failover
         - **Azure site Recovery - Hyper V**
-            - 
+            - Hyper V -It can be on a local premisis, you may be looking to replicate the hyper V from local to Azure
+            - You will have to install an agent on both HyperV s (local+Azure)
+            - Agent will have to be installed on every VM that is part of the hyper V (often each hyper V contain cluster of VMs)
 
 
 
