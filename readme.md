@@ -874,6 +874,9 @@ I have created this repository for my self learning and reference for expert Clo
                     - you can leave manual for the scaling option and select the number 1
             - You can scale the resources based on **Azure Service Bus que**
                 - Find the resource `service bus` from main resources. Once you hit create - it will take you to the `create namespace` page
+                - Once the `resource is created go to it || scaling`
+                    - Under instance limits select minimum as 1 and maximum as 3
+                    - `resource name || add rule`
 
 
 
