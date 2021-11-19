@@ -868,7 +868,7 @@ I have created this repository for my self learning and reference for expert Clo
         - **VM Scale Sets**
             - Scaling VNs based on demand -scale up or down 
             - You can create a VM scale set by searching VM scale set in the resources
-            - You can create an **Azure service bus resource**
+            - You can create an **Azure Service bus resource**
 
 
 
