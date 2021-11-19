@@ -861,6 +861,14 @@ I have created this repository for my self learning and reference for expert Clo
                 - Finally assign the replication policy that you have previously created and then you can enable the replication
                 - Once these steps are complete you have completed the prepare infrastructure part
                 - You can then monitor the replication by going to the `recovery services vault resource || replicated items`
+                - Likewise you can also run the test failover like with recovery services
+        
+        - **Azure key vault high availability**
+            - This is to ensure that if one region goes down. You can have the key vault available in another region in read-only format
+        - **VM Scale Sets**
+            - Scaling VNs based on demand -scale up or down 
+            - You can create a VM scale set by searching VM scale set in the resources
+            - You can create an **Azure service bus resource**
 
 
 
