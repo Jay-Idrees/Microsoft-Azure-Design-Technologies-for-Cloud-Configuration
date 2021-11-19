@@ -877,6 +877,7 @@ I have created this repository for my self learning and reference for expert Clo
                 - Once the `resource is created go to it || scaling`
                     - Under instance limits select minimum as 1 and maximum as 3
                     - `resource name || add rule`
+                        - You can define rules based on CPU percent usage or you can select service buse que, which goes by the number of messages
 
 
 
