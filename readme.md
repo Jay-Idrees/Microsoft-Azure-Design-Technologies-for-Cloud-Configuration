@@ -869,15 +869,22 @@ I have created this repository for my self learning and reference for expert Clo
             - Scaling VNs based on demand -scale up or down 
             - You can create a VM scale set by searching VM scale set in the resources
             - You can create an **Azure Service bus resource**
+            - The scale set and the service bus are needed for scaling, expecially if you want to scale based on messaging
             - You can go to reseources and find `virtual machine scale set` then you can create the resource using the standard settings
                 - **scaling**
-                    - you can leave manual for the scaling option and select the number 1
+                    - you can leave manual for the scaling option and specify 1 as the initial instance count
             - You can scale the resources based on **Azure Service Bus que**
                 - Find the resource `service bus` from main resources. Once you hit create - it will take you to the `create namespace` page
+                    - In the namespace resource you can create a queue by going to its homepage and clicking `que`, next you cn go to scaling             
                 - Once the `resource is created go to it || scaling`
                     - Under instance limits select minimum as 1 and maximum as 3
                     - `resource name || add rule`
                         - You can define rules based on CPU percent usage or you can select service buse que, which goes by the number of messages
+                        - Initially you can scale based on the percent CPU usage. Alternatives include scaling based on storage que or service bus que
+                        - If you want to scale based on the que, then you will be able to see the service bus que that you created earlier. There you can specify the number of messages processed
+            - Another important point linked to the upate and fault domain is that of the **Fault domain** and the **update domain**
+                - The fault domain is a separate power source - you can have your VMs spread out over 3 different fault domains - so if one fault domain does not work the others will be working and not all VMs will go down at once
+                - The update domains can be up to 20 - there are the different VMs within the same fault domain that allows one VM to update without disruption. The updates are performed per server. So multiple VMs even if on different domain will not be availabe if they are on the same server which would mean that theya are also on the same update domain
 
 
 
