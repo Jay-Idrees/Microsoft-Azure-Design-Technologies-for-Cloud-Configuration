@@ -882,9 +882,19 @@ I have created this repository for my self learning and reference for expert Clo
                         - You can define rules based on CPU percent usage or you can select service buse que, which goes by the number of messages
                         - Initially you can scale based on the percent CPU usage. Alternatives include scaling based on storage que or service bus que
                         - If you want to scale based on the que, then you will be able to see the service bus que that you created earlier. There you can specify the number of messages processed
+            - **Availability set** Service level agreement of 99.95%
+            - Consists of update and fault domains
             - Another important point linked to the upate and fault domain is that of the **Fault domain** and the **update domain**
                 - The fault domain is a separate power source - you can have your VMs spread out over 3 different fault domains - so if one fault domain does not work the others will be working and not all VMs will go down at once
                 - The update domains can be up to 20 - there are the different VMs within the same fault domain that allows one VM to update without disruption. The updates are performed per server. So multiple VMs even if on different domain will not be availabe if they are on the same server which would mean that theya are also on the same update domain
+                - The availability sets can only be specified at the time of creation of a VM. They cannot be modified once they are assigned
+            
+            - **Availability Zones** Service level agreement of 99.99%
+                - Three different availability zones in a region -These are unique locations within a region
+                - These protect against datacenter level failure
+                - Each zone is a collection of one or multiple datacenters
+                - More cost due to the communication b/w VMs across availability zones
+            - You can select between availability zone vs availability set when creating a virtual machine - this is under the availability options
 
 
 
