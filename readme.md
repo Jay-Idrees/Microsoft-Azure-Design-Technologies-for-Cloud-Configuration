@@ -863,7 +863,7 @@ I have created this repository for my self learning and reference for expert Clo
                 - You can then monitor the replication by going to the `recovery services vault resource || replicated items`
                 - Likewise you can also run the test failover like with recovery services
         
-        - **Azure Key Vault high availability**
+        - **Azure Key Vault High availability**
             - This is to ensure that if one region goes down. You can have the key vault available in another region in read-only format
         - **VM Scale Sets**
             - Scaling VNs based on demand -scale up or down 
