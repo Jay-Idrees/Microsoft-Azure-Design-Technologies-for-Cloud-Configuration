@@ -912,11 +912,12 @@ I have created this repository for my self learning and reference for expert Clo
     
     ## Virtual machines
     - Various sizes and classes
-        - General purpose
+        - **General purpose**
             - AV2 - Entry level dvlopement and test environment
             - DCsV2 - More secure, latest processor, can protect data while in use
-        - Compute optimized
+        - **Compute optimized**
             - Higher CPU to memory ratio - good for medium traffic and application servers
+        - **Memory Optimized**
 
 
 
