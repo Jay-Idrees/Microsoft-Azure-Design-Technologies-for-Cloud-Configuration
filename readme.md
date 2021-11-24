@@ -909,6 +909,12 @@ I have created this repository for my self learning and reference for expert Clo
     - Publishing an Azure funtion onto an Azure function app
         - Search for **Function app** in Azure and create this resource - select the runtime stack
         - Then you will have to publish your function using the virtual studio
+    
+    ## Virtual machines
+    - Various sizes and classes
+        - General purpose
+            - AV2 - Entry level dvlopement and test environment
+            - DCsV2 - More secure, latest processor, can protect data while in use
 
 
 
