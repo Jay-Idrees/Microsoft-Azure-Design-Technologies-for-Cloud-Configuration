@@ -895,6 +895,12 @@ I have created this repository for my self learning and reference for expert Clo
                 - Each zone is a collection of one or multiple datacenters
                 - More cost due to the communication b/w VMs across availability zones
             - You can select between availability zone vs availability set when creating a virtual machine - this is under the availability options
+    
+    # Azure infrastructure 
+
+    - You can use Azure VM or Azure Web app feature
+    - VM - you have total control, you can install any application, you are responsible for maintainance with updates, you will also have to manually implement scaling - This is infrasctructure as serive
+    - Azure web app, you cannot install software. It is managed by Azure, you can scale the app - This is platform as service
 
 
 
