@@ -915,6 +915,8 @@ I have created this repository for my self learning and reference for expert Clo
         - General purpose
             - AV2 - Entry level dvlopement and test environment
             - DCsV2 - More secure, latest processor, can protect data while in use
+        - Compute optimized
+            - Higher CPU to memory ratio - good for medium traffic and application servers
 
 
 
