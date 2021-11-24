@@ -899,8 +899,16 @@ I have created this repository for my self learning and reference for expert Clo
     # Azure infrastructure 
 
     - You can use Azure VM or Azure Web app feature
-    - VM - you have total control, you can install any application, you are responsible for maintainance with updates, you will also have to manually implement scaling - This is infrasctructure as serive
+    - VM - you have total control, you can install any application, you are responsible for maintainance with updates, you will also have to manually implement scaling (via Azure VM scale sets) - This is infrasctructure as serive
     - Azure web app, you cannot install software. It is managed by Azure, you can scale the app - This is platform as service
+    - **Azure function** is serverless service - you are billed for the duration of execution - cheeaper than VM
+    - Azure functions are not meant to run the web applications - for the latter you can select a VM or Azure webap
+
+    ## Azure functions
+    - For example, one fuction can be making database calls
+    - Publishing an Azure funtion onto an Azure function app
+        - Search for **Function app** in Azure and create this resource - select the runtime stack
+        - Then you will have to publish your function using the virtual studio
 
 
 
