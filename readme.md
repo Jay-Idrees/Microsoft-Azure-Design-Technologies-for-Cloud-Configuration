@@ -918,6 +918,15 @@ I have created this repository for my self learning and reference for expert Clo
         - **Compute optimized**
             - Higher CPU to memory ratio - good for medium traffic and application servers
         - **Memory Optimized**
+            - EV,ESV3 series Higher memory to CPU ratio - good for hosting databases
+        - **Storage optimized**
+            - Big data applications, SQL and noSQL databases
+    
+    ## Azure batch service
+    - large scale paralel high performing jobs
+    - You create Azure **batch account** and Azure **storage account**
+    - The batch account basically contains a pool of VMs that will pull the videos from the storage account
+    - It consists of **nodes** to run the applications - The nodes have the capabilities of running certain scripts
 
 
 
