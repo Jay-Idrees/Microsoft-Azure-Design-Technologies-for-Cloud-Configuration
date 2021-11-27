@@ -924,9 +924,11 @@ I have created this repository for my self learning and reference for expert Clo
     
     ## Azure batch service
     - large scale paralel high performing jobs
-    - You create Azure **batch account** and Azure **storage account**
+    - You create Azure **Batch account** and Azure **storage account**
     - The batch account basically contains a pool of VMs that will pull the videos from the storage account
-    - It consists of **nodes** to run the applications - The nodes have the capabilities of running certain scripts
+    - It consists of **nodes** to run the applications - each node is a VM - The nodes have the capabilities of running certain scripts
+        - Dedicated nodes - to make sure that a job is done - more expensive
+        - Low priority nodes
 
 
 
