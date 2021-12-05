@@ -922,7 +922,7 @@ I have created this repository for my self learning and reference for expert Clo
         - **Storage optimized**
             - Big data applications, SQL and noSQL databases
     
-    ## Azure batch service
+    ## Azure Batch Service
     - large scale paralel high performing jobs
     - You create Azure **Batch Account** and Azure **Storage Account**
     - The batch account basically contains a pool of VMs that will pull the videos from the storage account
