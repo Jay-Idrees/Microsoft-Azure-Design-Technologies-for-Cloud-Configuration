@@ -923,19 +923,20 @@ I have created this repository for my self learning and reference for expert Clo
             - Big data applications, SQL and noSQL databases
     
     ## Azure Batch Service
-    - large scale paralel high performing jobs
+    - large scale paralell high performing jobs
     - You create Azure **Batch Account** and Azure **Storage Account**
     - The batch account basically contains a pool of VMs that will pull the videos from the storage Account
     - It consists of **Nodes** to run the applications - each node is a VM - The nodes have the capabilities of running certain scripts
         - Dedicated nodes - to make sure that a job is done - more expensive
         - Low priority nodes
-
-
-
-
-
-
-
+    - Search for batch service resource from general resources
+        - Assign a new batch account name
+        - Select storage account
+        - Once created - go to the resource
+            - Specify application
+            - FFmpeg tool - converting video and audio file using Azure batch service. Will need to convert to zip file if .exe before it can be uploaded it the storage account
+            - You an add pool of VMs
+            - While you are creating the pool you will create a V net as well as a subnet
 
 
 
