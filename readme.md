@@ -934,6 +934,7 @@ I have created this repository for my self learning and reference for expert Clo
         - Select storage account
         - Once created - go to the resource
             - Specify application
+            - `batch account resource || application > add`
             - FFmpeg tool - converting video and audio file using Azure batch service. Will need to convert to zip file if .exe before it can be uploaded it the storage account
             - You an add pool of VMs
             - While you are creating the pool you will create a V net as well as a subnet
