@@ -957,6 +957,11 @@ I have created this repository for my self learning and reference for expert Clo
             - **Azure container instance** - underlying infrastructure is completely managed - you do not have to create VMs or install docker
             - Using **Azure Kubernetes**- useful if there are multiple application containers - deployment of multiple container based applications
             - **Azure service Fabric** - the environment can be deployed
+    
+    ## Miroservices architechture
+    - Monolithic application: Separate modules for user, order, search, purchase - all part of the same code base and a single data store
+        - Problem: Change in code impacted the other modules - you will then have to test every thing again and again and could break the code
+        - Microservices allows separation of modules as a service. Each service has a separate code base
 
 
 
