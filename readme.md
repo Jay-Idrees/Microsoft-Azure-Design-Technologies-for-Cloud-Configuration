@@ -933,13 +933,15 @@ I have created this repository for my self learning and reference for expert Clo
         - Assign a new batch account name
         - Select storage account
         - Once created - go to the resource
-            - Specify application
+            - **Specify application package**
             - `batch account resource || application > add`
             - FFmpeg tool - converting video and audio file using Azure batch service. Will need to convert to zip file if .exe before it can be uploaded it the storage account - You can submit this as the application packag using `add`
-            - You an add pool of VMs
-            - While you are creating the pool you will create a V net as well as a subnet
-            - Create a video container in the storage account and then upload a video file into this container
+            - You an **add pool of VMs**
+            - ` batch account resource || pools > add` image type select marktplace
+            - While you are creating the pool you will create a V net as well as a subnet - once done this step will create th pool of VM and their network
+            - **Create a video container** in the storage account and then upload a video file into this container
             - Going back to the batch account and then assigining a job
+            - `batch account resource || jobs > add` This will lead you to the jobs page an if you click `add` there it will ad a task
             - Then add and run a task on the VM. You can type in a command while creating the task. Select the resource file which includes selecting the storage container containing the video
             - Then you also select the application package
             - This process will run the software on the video file and separate it into the audio/vieo
