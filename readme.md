@@ -929,7 +929,7 @@ I have created this repository for my self learning and reference for expert Clo
     - It consists of **Nodes** to run the applications - each node is a VM - The nodes have the capabilities of running certain scripts
         - Dedicated nodes - to make sure that a job is done - more expensive
         - Low priority nodes
-    - Search for batch service resource from general resources
+    - Search for batch service resource from general resources an **create a batch account**
         - Assign a new batch account name
         - Select storage account
         - Once created - go to the resource
@@ -941,6 +941,7 @@ I have created this repository for my self learning and reference for expert Clo
             - Going back to the batch account and then assigining a job
             - Then add and run a task on the VM. You can type in a command while creating the task. Select the resource file which includes selecting the storage container containing the video
             - Then you also select the application package
+            - This process will run the software on the video file and separate it into the audio/vieo
 
 
 
