@@ -941,10 +941,14 @@ I have created this repository for my self learning and reference for expert Clo
             - While you are creating the pool you will create a V net as well as a subnet - once done this step will create th pool of VM and their network
             - **Create a video container** in the storage account and then upload a video file into this container
             - Going back to the batch account and then assigining a job
-            - `batch account resource || jobs > add` This will lead you to the jobs page an if you click `add` there it will ad a task
-            - Then add and run a task on the VM. You can type in a command while creating the task. Select the resource file which includes selecting the storage container containing the video
+            - `batch account resource || jobs > add` This will lead you to the jobs page an if you click `add` there it will ad a **task**
+            - Then **add and run a task on the VM**. You can type in a command while creating the task. Select the resource file which includes selecting the storage container containing the video. The command will run the application
             - Then you also select the application package
-            - This process will run the software on the video file and separate it into the audio/vieo
+            - This process will run the software on the video file and separate it into the audio/video
+        
+    ## Advantages of using application container
+        - Isolation of application. The traitional way has been to create a VM an then install an application on it along with its libraries and dependencies
+        - If multiple applications need to be installed, this can create a clash of dependencies in an application. This the container technology prevents this from happening
 
 
 
