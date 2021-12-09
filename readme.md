@@ -952,6 +952,10 @@ I have created this repository for my self learning and reference for expert Clo
         - You can then run multiple containers on one VM
         - Containers are also very portable. You can easily eploy the same copy of container on multiple VMs
         - Docker is a technology used for creating and managing containers
+        - For example there can be a database container and an application container
+        - **Options**
+            - Azure container instance - underlying infrastructure is completely managed - you do not have to create VMs or install docker
+            - 
 
 
 
