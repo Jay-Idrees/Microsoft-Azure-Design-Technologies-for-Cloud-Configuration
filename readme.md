@@ -947,15 +947,16 @@ I have created this repository for my self learning and reference for expert Clo
             - This process will run the software on the video file and separate it into the audio/video
         
     ## Advantages of using application container
-        - Isolation of application. The traitional way has been to create a VM an then install an application on it along with its libraries and dependencies
+     - Isolation of application. The traitional way has been to create a VM an then install an application on it along with its libraries and dependencies
         - If multiple applications need to be installed, this can create a clash of dependencies in an application. Thus the container technology prevents this from happening as a container bundles an application along with its dependencies
         - You can then run multiple containers on one VM
         - Containers are also very portable. You can easily eploy the same copy of container on multiple VMs
         - Docker is a technology used for creating and managing containers
         - For example there can be a database container and an application container
-        - **Options**
-            - Azure container instance - underlying infrastructure is completely managed - you do not have to create VMs or install docker
-            - 
+        - **Options** 
+            - **Azure container instance** - underlying infrastructure is completely managed - you do not have to create VMs or install docker
+            - Using **Azure Kubernetes**- useful if there are multiple application containers - deployment of multiple container based applications
+            - **Azure service Fabric** - the environment can be deployed
 
 
 
