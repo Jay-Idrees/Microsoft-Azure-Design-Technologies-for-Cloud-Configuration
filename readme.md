@@ -965,5 +965,12 @@ I have created this repository for my self learning and reference for expert Clo
         - Every service is selfcontained. This works such that the presentation layer of the application interacts with **API management instance** which intern calls on inividual services such as user, order, search and purchase
         - Disavantages: Complexity for interactions between services. Each service has to be tested separately. Difficulty with governance if multiple services. Data integrity can also be a problem
 
+    ## Deployment of containers
+    - **Creating a SQL database engine** - installing MYSQL creating a database and then tables to store application data
+    - Steps
+        - Create a linux VM
+        - Create MYSQL container. You will likely also have a separate application container
+        - Deploy a custom MYSQL container and the application container to an Azure container instance using Azure Kubernetes
+
 
 
