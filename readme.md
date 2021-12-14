@@ -966,7 +966,7 @@ I have created this repository for my self learning and reference for expert Clo
         - Disavantages: Complexity for interactions between services. Each service has to be tested separately. Difficulty with governance if multiple services. Data integrity can also be a problem
 
     ## Deployment of containers
-    - **Creating a SQL Database engine** - installing MYSQL creating a database and then tables to store application data
+    - **Creating a SQL Database Engine** - installing MYSQL creating a database and then tables to store application data
     - Steps
         - Create a linux VM
         - Create MYSQL container. You will likely also have a separate application container
