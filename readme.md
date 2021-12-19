@@ -969,7 +969,7 @@ I have created this repository for my self learning and reference for expert Clo
     - **Creating an SQL Database Engine** - installing MYSQL creating a database and then tables to store application data
     - Steps
         - Create Linux VM
-        - Create MYSQL container. You will likely also have a separate application container
+        - Create MYSQL Container. You will likely also have a separate application container
         - Deploy a custom MYSQL container and the application container to an Azure container instance using Azure Kubernetes
 
 
