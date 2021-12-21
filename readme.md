@@ -970,7 +970,7 @@ I have created this repository for my self learning and reference for expert Clo
     - Steps
         - Create Linux VM
         - Create MYSQL Container. You will likely also have a separate application container
-        - Deploy a custom MYSQL container and the application container to an Azure container instance using Azure Kubernetes
+        - Deploy a custom MYSQL container and the application container to an Azure Container instance using Azure Kubernetes
 
 
 
