@@ -965,7 +965,7 @@ I have created this repository for my self learning and reference for expert Clo
         - Every service is selfcontained. This works such that the presentation layer of the application interacts with **API management instance** which intern calls on inividual services such as user, order, search and purchase
         - Disavantages: Complexity for interactions between services. Each service has to be tested separately. Difficulty with governance if multiple services. Data integrity can also be a problem
 
-    ## Deployment of containers
+    ## Deployment of Containers
     - **Creating an SQL Database Engine** - installing MYSQL creating a database and then tables to store application data
     - Steps
         - Create Linux VM
