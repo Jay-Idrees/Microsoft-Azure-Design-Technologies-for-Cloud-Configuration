@@ -962,7 +962,7 @@ I have created this repository for my self learning and reference for expert Clo
     - Monolithic application: Separate modules for user, order, search, purchase - all part of the same code base and a single data store
         - Problem: Change in code impacted the other modules - you will then have to test every thing again and again and could break the code
         - Microservices allows separation of modules as a service. Each service has a separate code base. Everything is decoupled
-        - Every service is selfcontained. This works such that the presentation layer of the application interacts with **API management instance** which intern calls on inividual services such as user, order, search and purchase
+        - Every service is selfcontained. This works such that the presentation layer of the application interacts with **API management Instance** which intern calls on inividual services such as user, order, search and purchase
         - Disavantages: Complexity for interactions between services. Each service has to be tested separately. Difficulty with governance if multiple services. Data integrity can also be a problem
 
     ## Deployment of Containers
