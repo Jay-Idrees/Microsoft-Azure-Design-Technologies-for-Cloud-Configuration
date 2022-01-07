@@ -954,7 +954,7 @@ I have created this repository for my self learning and reference for expert Clo
         - Docker is a technology used for creating and managing containers
         - For example there can be a database container and an application container
         - **Options** 
-            - **Azure Container instance** - underlying infrastructure is completely managed - you do not have to create VMs or install docker
+            - **Azure Container Instance** - underlying infrastructure is completely managed - you do not have to create VMs or install docker
             - Using **Azure Kubernetes**- useful if there are multiple application containers - deployment of multiple container based applications
             - **Azure service Fabric** - the environment can be deployed
     
